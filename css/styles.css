@@ -125,8 +125,6 @@ body {
 
   .menu-box {
     display: block;
-    /* color: black; */
-
     color: #6070ff;
     height: 10px;
   }
@@ -134,9 +132,5 @@ body {
   .second-section {
     max-width: 372px;
     margin: 0 20px;
-  }
-
-  .second-section-container {
-    /* padding-top: 128px; */
   }
 }
