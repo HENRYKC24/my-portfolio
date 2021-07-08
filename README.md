@@ -15,7 +15,7 @@ This is my portfolio website to showcase my skills and projects I have done as a
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://henrykc24.github.io/my-portfolio/)
 
 
 ## Getting Started
