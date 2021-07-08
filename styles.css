@@ -14,12 +14,17 @@ body {
   padding: 0;
 }
 
+.fa-bars {
+  font-size: 20px;
+}
+
 .nav-bar {
   margin: 26px 24px 20px;
   color: #6070ff;
   display: flex;
   font-weight: 700;
   justify-content: space-between;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-bar p {
@@ -30,7 +35,7 @@ body {
 }
 
 section {
-  width: 375px;
+  max-width: 100%;
 }
 
 .nav-bar li {
@@ -39,9 +44,28 @@ section {
   margin: 0;
 }
 
+.top-section {
+  width: 90%;
+}
+
+.logo-box {
+  width: 80%;
+}
+
+.logo-box a {
+  text-decoration: none;
+  color: #6070ff;
+}
+
+.logo-box span,
+.logo-box p {
+  width: 50%;
+}
+
 .second-section-container {
   background-image: url("./assets/images/mobileBackground.png");
   background-size: 100% 100%;
+  width: 60%;
 }
 
 .second-section p {
@@ -51,6 +75,7 @@ section {
 
 .second-section {
   padding: 108px 24px 0;
+  width: 80%;
 }
 
 .second-section p:first-child,
@@ -77,6 +102,7 @@ section {
   list-style-type: none;
   padding-bottom: 138px;
   padding-left: 0;
+  width: 100%;
 }
 
 .second-section p:nth-child(4) {
@@ -85,9 +111,11 @@ section {
 
 .second-section p:nth-child(3) {
   margin-top: 12px;
+  width: 90%;
 }
 
 .social-container li {
   margin-right: 19px;
   font-size: 18px;
+  width: 20px;
 }

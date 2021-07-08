@@ -4,7 +4,7 @@
 
 > Building My Portfolio Website
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/images/app_screenshot.png)
 
 This is my portfolio website to showcase my skills and projects I have done as a software engineer. It is motivate by my Microverse program start on the 5th, July, 2021.
 
@@ -23,21 +23,20 @@ This is my portfolio website to showcase my skills and projects I have done as a
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### clone the app
 
-### Setup
+### Run 'npm install' from the command line
 
-### Install
+### Run 'npx hint .' to test for html linting check
 
-### Usage
-
-### Run tests
-
-### Deployment
+### Run 'npx stylelint "**/*.{css,scss}"' to test for css linting check 
 
 
+### The app is deployed using GitHub pages. You can view it using the 'live demo' above.
 
-## Authors
+
+
+## Author
 
 👤 **Henry Kc**
 
