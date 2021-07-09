@@ -203,7 +203,6 @@ section {
 }
 
 .project-description {
-  /* line-height: 25px; */
   color: #344563;
   margin-bottom: -15px;
 }
@@ -263,7 +262,6 @@ section {
   border-top-right-radius: 100px;
   padding: 0 24px;
   font-family: "Poppins", sans-serif;
-  /* font-weight: 900; */
 }
 
 .about > * {
