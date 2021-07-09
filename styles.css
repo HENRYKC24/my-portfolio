@@ -302,6 +302,12 @@ section {
   font-size: 17px;
 }
 
+.tech-stacks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .lang-and-icon {
   display: flex;
   flex-direction: row;
