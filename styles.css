@@ -442,7 +442,8 @@ section {
   box-sizing: border-box;
   border-radius: 8px;
   margin-bottom: 22px;
-  color: #b3bac5;
+  color: black;
+  font-family: Poppins, sans-serif;
 }
 
 .send {
@@ -453,4 +454,8 @@ section {
   border-radius: 8px;
   margin-bottom: 32px;
   border: none;
+}
+
+.send:hover {
+  border: 1px solid white;
 }
