@@ -257,7 +257,7 @@ section {
   background-color: white;
 }
 
-.about {
+.about-container {
   background-color: #fff;
   margin-top: 114px;
   border-top-right-radius: 100px;
@@ -277,6 +277,7 @@ section {
   margin-bottom: 10px;
   line-height: 1.2;
 }
+
 
 .connect-about {
   color: #7f8cff;
@@ -530,7 +531,7 @@ section {
   .project {
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 60%;
+    width: 75%;
     margin: 100px auto 0;
     padding: 10px;
   }
@@ -568,7 +569,7 @@ section {
 
   .about {
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 40% 60%;
     padding: 0 190px;
   }
 
@@ -585,6 +586,7 @@ section {
   .lang-list {
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   .css {
