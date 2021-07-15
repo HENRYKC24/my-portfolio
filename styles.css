@@ -550,7 +550,6 @@ section {
   }
 
   .project:hover {
-    cursor: pointer;
     border: 1px solid #a7afff;
     box-shadow: 10px 20px 60px 5px rgba(197, 201, 250, 0.8);
   }
