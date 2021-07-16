@@ -165,6 +165,7 @@ section {
 .project-image {
   margin: auto;
   margin: 0 10px;
+  overflow: hidden;
 }
 
 .project-name {
