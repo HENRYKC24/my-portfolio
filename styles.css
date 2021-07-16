@@ -450,12 +450,6 @@ section {
   transition: all 0.5s;
 }
 
-.name:focus,
-.email:focus,
-.msg:focus {
-  transform: scale(1.05);
-}
-
 .msg {
   width: 100%;
   padding: 16px;
@@ -466,6 +460,12 @@ section {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   transition: all 0.5s;
+}
+
+.name:focus,
+.email:focus,
+.msg:focus {
+  transform: scale(1.05);
 }
 
 .send {
