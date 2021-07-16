@@ -487,6 +487,11 @@ section {
 
 .image {
   width: 100%;
+  transition: all 0.5s;
+}
+
+.image:hover {
+  transform: scale(1.1);
 }
 
 /* Desktop media queries */
@@ -567,6 +572,7 @@ section {
     width: 100%;
     display: flex;
     margin: 0;
+    overflow: hidden;
   }
 
   .project .image {
