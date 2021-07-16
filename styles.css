@@ -165,6 +165,7 @@ section {
 .project-image {
   margin: auto;
   margin: 0 10px;
+  overflow: hidden;
 }
 
 .project-name {
@@ -238,6 +239,7 @@ section {
   font-size: 17px;
   color: #396df2;
   font-weight: 500;
+  transition: all 0.5s;
 }
 
 .project-button:hover {
@@ -445,6 +447,7 @@ section {
   font-size: 20px;
   color: #172b4d;
   box-sizing: border-box;
+  transition: all 0.5s;
 }
 
 .msg {
@@ -456,6 +459,13 @@ section {
   color: black;
   font-family: Poppins, sans-serif;
   font-size: 20px;
+  transition: all 0.5s;
+}
+
+.name:focus,
+.email:focus,
+.msg:focus {
+  transform: scale(1.05);
 }
 
 .send {
@@ -478,6 +488,11 @@ section {
 
 .image {
   width: 100%;
+  transition: all 0.5s;
+}
+
+.image:hover {
+  transform: scale(1.1);
 }
 
 /* Desktop media queries */
@@ -558,6 +573,7 @@ section {
     width: 100%;
     display: flex;
     margin: 0;
+    overflow: hidden;
   }
 
   .project .image {
