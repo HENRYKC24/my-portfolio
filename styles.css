@@ -466,6 +466,8 @@ section {
 .email:focus,
 .msg:focus {
   transform: scale(1.05);
+  border: none;
+  outline: none;
 }
 
 .send {
@@ -573,6 +575,7 @@ section {
     width: 100%;
     display: flex;
     margin: 0;
+    border-radius: 16px;
     overflow: hidden;
   }
 
