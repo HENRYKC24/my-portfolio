@@ -327,7 +327,7 @@ section {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-bottom: 350px;
+  padding-bottom: 200px;
 }
 
 .lang-and-icon {
@@ -599,7 +599,7 @@ section {
   .about {
     display: grid;
     grid-template-columns: 40% 60%;
-    padding: 0 190px;
+    padding: 0 100px;
   }
 
   .about-intro-section p:nth-child(2) {
