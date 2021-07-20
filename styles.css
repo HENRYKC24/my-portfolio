@@ -58,7 +58,7 @@ section {
 }
 
 .logo-box span,
-.logo-box p {
+.logo-box h1 {
   width: 50%;
 }
 
@@ -80,12 +80,13 @@ section {
   width: 80%;
 }
 
-.second-section p:first-child,
-.second-section p:nth-child(2) {
+.second-section h1:first-child,
+.second-section h1:nth-child(2) {
   font-size: 40px;
   font-weight: bolder;
   width: 90%;
   color: #172b4d;
+  margin: 0;
 }
 
 .header,
@@ -276,7 +277,7 @@ section {
   width: 100%;
 }
 
-.about-intro-section p:first-child {
+.about-intro-section h1:first-child {
   color: #172b4d;
   font-size: 40px;
   font-weight: 900;
@@ -551,7 +552,7 @@ section {
     margin: auto;
   }
 
-  .second-section p:first-child {
+  .second-section h1:first-child {
     padding-top: 80px;
   }
 
@@ -589,8 +590,8 @@ section {
     order: 2;
   }
 
-  .second-section p:first-child,
-  .second-section p:nth-child(2) {
+  .second-section h1:first-child,
+  .second-section h1:nth-child(2) {
     font-size: 48px;
   }
 
