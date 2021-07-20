@@ -15,7 +15,7 @@ body {
 }
 
 .fa-bars {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .nav-bar {
@@ -27,7 +27,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.nav-bar p {
+.nav-bar h1 {
   padding: 0;
   margin: 0;
   font-weight: 700;
@@ -82,7 +82,7 @@ section {
 
 .second-section h1:first-child,
 .second-section h1:nth-child(2) {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bolder;
   width: 90%;
   color: #172b4d;
@@ -102,7 +102,7 @@ section {
 
 .connect {
   color: #7f8cff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   margin-top: 900px;
 }
@@ -112,7 +112,8 @@ section {
   list-style-type: none;
   padding-bottom: 138px;
   padding-left: 0;
-  width: 100%;
+  width: 40%;
+  justify-content: space-between;
 }
 
 .second-section p:nth-child(4) {
@@ -126,7 +127,7 @@ section {
 
 .social-container li {
   margin-right: 20px;
-  font-size: 25px;
+  font-size: 1.6rem;
   width: 20px;
   color: #505f79;
 }
@@ -170,7 +171,7 @@ section {
 }
 
 .project-name {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bolder;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -190,13 +191,13 @@ section {
 }
 
 .canopy {
-  font-size: 13px;
+  font-size: 0.8rem;
   font-weight: bolder;
   color: #344563;
 }
 
 .role {
-  font-size: 13px;
+  font-size: 0.8rem;
   color: #7a869a;
   font-weight: bolder;
 }
@@ -228,16 +229,15 @@ section {
   background-color: #ebebff;
   padding: 5px 10px;
   color: #6070ff;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .project-button {
-  width: 130px;
-  height: 48px;
+  padding: 1rem;
   background-color: white;
   border: 2px solid #6070ff;
   border-radius: 8px;
-  font-size: 17px;
+  font-size: 1.06rem;
   color: #396df2;
   font-weight: 500;
   transition: all 0.5s;
@@ -247,7 +247,7 @@ section {
   background-color: #6070ff;
   border: 2px solid #6070ff;
   border-radius: 8px;
-  font-size: 17px;
+  font-size: 1.06rem;
   color: #fff;
   font-weight: 500;
 }
@@ -256,7 +256,7 @@ section {
   background-color: #2230d2;
   border: 2px solid #2230d2;
   border-radius: 8px;
-  font-size: 17px;
+  font-size: 1.06rem;
   color: #fff;
   font-weight: 500;
 }
@@ -279,7 +279,7 @@ section {
 
 .about-intro-section h1:first-child {
   color: #172b4d;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-top: 92px;
   margin-bottom: 10px;
@@ -289,7 +289,7 @@ section {
 
 .connect-about {
   color: #7f8cff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -305,11 +305,13 @@ section {
   flex-direction: row;
   margin: 26px 0 20px;
   padding: 0 0 0 12px;
+  width: 80%;
+  justify-content: space-between;
 }
 
 .social-container-about li {
   margin-right: 20px;
-  font-size: 25px;
+  font-size: 1.56rem;
   width: 20px;
   color: #505f79;
 }
@@ -318,7 +320,7 @@ section {
   width: auto;
   padding-right: 12px;
   padding-left: 12px;
-  font-size: 17px;
+  font-size: 1.06rem;
 }
 
 .tech-stacks {
@@ -339,7 +341,7 @@ section {
 }
 
 .lang-and-icon span:first-child {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
@@ -398,7 +400,7 @@ section {
   background-color: #6070ff;
   padding: 21px 0 0;
   border-top-left-radius: 70px;
-  margin-top: -180px;
+  margin-top: 1rem;
 }
 
 .contact {
@@ -417,14 +419,14 @@ section {
 .contact h1:first-child {
   text-align: center;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 0;
   color: #fff;
 }
 
 .contact h1:first-of-type {
   color: #ebebff;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
   font-weight: bold;
   margin-top: 80px;
@@ -433,7 +435,7 @@ section {
 .contact p:nth-child(2) {
   color: #fff;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 40px;
 }
 
@@ -445,7 +447,7 @@ section {
   border-radius: 8px;
   border: none;
   padding: 15px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #172b4d;
   box-sizing: border-box;
   transition: all 0.5s;
@@ -459,7 +461,7 @@ section {
   margin-bottom: 22px;
   color: black;
   font-family: Poppins, sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   transition: all 0.5s;
 }
 
@@ -473,9 +475,7 @@ section {
 
 .send {
   color: #6070ff;
-  width: 140px;
-  height: 48px;
-  font-size: 17px;
+  font-size: 1.06rem;
   border-radius: 8px;
   margin-bottom: 32px;
   border: none;
@@ -522,7 +522,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .nav-bar li {
@@ -592,7 +592,7 @@ section {
 
   .second-section h1:first-child,
   .second-section h1:nth-child(2) {
-    font-size: 48px;
+    font-size: 3rem;
   }
 
   .second-section .connect {
@@ -606,11 +606,11 @@ section {
   }
 
   .about-intro-section p:nth-child(2) {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .lang {
-    width: 100px;
+    width: auto;
     flex-direction: column;
     margin-right: 10px;
     justify-content: space-between;
