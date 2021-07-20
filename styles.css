@@ -397,10 +397,7 @@ section {
 }
 
 .contact-wrapper {
-  background-color: #6070ff;
-  padding: 21px 0 0;
-  border-top-left-radius: 70px;
-  margin-top: 1rem;
+  background-color: #fff;
 }
 
 .contact {
@@ -638,11 +635,11 @@ section {
     background-size: 100% 100%;
     text-align: center;
     padding-bottom: 50px;
-    border-top-left-radius: 400px;
+    border-top-left-radius: 200px;
   }
 
   .contact-wrapper {
-    border-top-left-radius: 200px;
+    background-color: white;
   }
 
   .contact h1:first-child {
