@@ -414,7 +414,7 @@ section {
   box-sizing: border-box;
 }
 
-.contact p:first-child {
+.contact h1:first-child {
   text-align: center;
   font-weight: bold;
   font-size: 40px;
@@ -422,7 +422,7 @@ section {
   color: #fff;
 }
 
-.contact p:first-of-type {
+.contact h1:first-of-type {
   color: #ebebff;
   font-size: 40px;
   text-align: center;
@@ -645,7 +645,7 @@ section {
     border-top-left-radius: 200px;
   }
 
-  .contact p:first-child {
+  .contact h1:first-child {
     padding-bottom: 30px;
   }
 
