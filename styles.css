@@ -126,6 +126,26 @@ section {
   font-size: 32px;
 }
 
+.mobile-menu-format li:first-of-type {
+  padding-top: 60px;
+}
+
+.close-container {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 30px;
+  padding-right: 33px;
+}
+
+.mobile-menu-format .menu-item a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* End of Mobile Menu Styles */
+
 .connect {
   color: #7f8cff;
   font-size: 1rem;
