@@ -100,6 +100,25 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
+.social-container li {
+  margin-right: 20px;
+  font-size: 1.6rem;
+  width: 20px;
+  color: #505f79;
+}
+
+.social-container li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-container-about li {
+  margin-right: 20px;
+  font-size: 1.56rem;
+  width: 20px;
+  color: #505f79;
+}
+
 /* Syles for the mobile menu */
 .mobile-menu-format {
   display: block;
@@ -169,18 +188,6 @@ section {
 .second-section p:nth-child(3) {
   color: #344563;
   margin-top: 12px;
-}
-
-.social-container li {
-  margin-right: 20px;
-  font-size: 1.6rem;
-  width: 20px;
-  color: #505f79;
-}
-
-.social-container li a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .projects {
@@ -353,13 +360,6 @@ section {
   padding: 0 0 0 12px;
   width: 80%;
   justify-content: space-between;
-}
-
-.social-container-about li {
-  margin-right: 20px;
-  font-size: 1.56rem;
-  width: 20px;
-  color: #505f79;
 }
 
 .about .project-button {
