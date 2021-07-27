@@ -100,6 +100,71 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
+.social-container li {
+  margin-right: 20px;
+  font-size: 1.6rem;
+  width: 20px;
+  color: #505f79;
+}
+
+.social-container li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-container-about li {
+  margin-right: 20px;
+  font-size: 1.56rem;
+  width: 20px;
+  color: #505f79;
+}
+
+/* Syles for the mobile menu */
+.mobile-menu-format {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0.95;
+  padding-top: 21px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #6070ff;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.mobile-menu-format .menu-item {
+  padding-left: 28px;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.mobile-menu-format li:first-of-type {
+  padding-top: 60px;
+}
+
+.close-container {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 30px;
+  padding-right: 33px;
+}
+
+.mobile-menu-format .menu-item a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* End of Mobile Menu Styles */
+
 .connect {
   color: #7f8cff;
   font-size: 1rem;
@@ -123,18 +188,6 @@ section {
 .second-section p:nth-child(3) {
   color: #344563;
   margin-top: 12px;
-}
-
-.social-container li {
-  margin-right: 20px;
-  font-size: 1.6rem;
-  width: 20px;
-  color: #505f79;
-}
-
-.social-container li a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .projects {
@@ -307,13 +360,6 @@ section {
   padding: 0 0 0 12px;
   width: 80%;
   justify-content: space-between;
-}
-
-.social-container-about li {
-  margin-right: 20px;
-  font-size: 1.56rem;
-  width: 20px;
-  color: #505f79;
 }
 
 .about .project-button {
