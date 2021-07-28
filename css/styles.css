@@ -128,18 +128,19 @@ section {
   left: 0;
   width: 100vw;
   height: auto;
-  background: rgba(138, 168, 207, 0.94);
+  background: rgba(138, 168, 207, 0.84);
   opacity: unset;
   text-align: center;
   max-height: 100vh;
   overflow-y: auto;
+  backdrop-filter: blur(4px);
 }
 
 .project-modal-main {
   width: 80%;
   margin: 50px auto;
   background-color: white;
-  padding: 10px 20px 50px;
+  padding: 10px 20px 10px;
   border-radius: 20px;
   overflow-y: initial !important;
 }
@@ -212,16 +213,18 @@ section {
   margin: 10px 5px 0 0;
 }
 
-.modal-buttons button {
+.modal-buttons div {
   background-color: white;
-  border: 0.5px solid  rgb(52, 59, 155);
+  border: 0.5px solid rgb(52, 59, 155);
   padding: 10px;
   border-radius: 8px;
   font-size: 18px;
   margin: 5px;
+  cursor: pointer;
+  display: inline-block;
 }
 
-.modal-buttons button a {
+.modal-buttons div a {
   text-decoration: none;
   color: rgb(52, 59, 155);
 }
@@ -812,5 +815,37 @@ section {
     margin: 20px 0 0 20px;
   }
 
-  
+  /* Desktop Modal Styling Start */
+  .project-modal-main {
+    width: 60%;
+  }
+
+  .md-pr-yr {
+    margin-bottom: 30px;
+  }
+
+  .md-pr-yr li {
+    font-size: 18px;
+  }
+
+  .modal-project-name {
+    font-size: 40px;
+  }
+
+  .modal-image {
+    margin-top: 0;
+  }
+
+  .modal-techs {
+    margin-top: 20px;
+  }
+
+  .modal-project-details {
+    grid-template-columns: 70% 30%;
+    margin-top: 30px;
+  }
+
+  .modal-project-description {
+    font-size: 22px;
+  }
 }
