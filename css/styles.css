@@ -70,7 +70,7 @@ section {
 }
 
 .second-section-container {
-  background-image: url("/assets/images/mobileBackground.png");
+  background-image: url("../assets/images/mobileBackground.png");
   background-size: 100% 90%;
   background-repeat: no-repeat;
   width: 60%;
@@ -564,7 +564,7 @@ section {
 }
 
 .contact {
-  background: url("/assets/images/contact_background.png");
+  background: url("../assets/images/contact_background.png");
   background-size: 60% 100%;
   background-repeat: no-repeat;
   background-position: top right;
@@ -702,7 +702,7 @@ section {
   }
 
   .second-section-container {
-    background-image: url("/assets/images/headerBackground.png");
+    background-image: url("../assets/images/headerBackground.png");
     margin: 0 auto;
     display: flex;
     align-self: center;
@@ -796,7 +796,7 @@ section {
   }
 
   .contact {
-    background-image: url("/assets/images/contact_form_big_background.png");
+    background-image: url("../assets/images/contact_form_big_background.png");
     background-size: 100% 100%;
     text-align: center;
     padding-bottom: 50px;
