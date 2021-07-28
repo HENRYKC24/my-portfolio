@@ -2,6 +2,7 @@ body {
   background-color: #e5e5e5;
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 /* "Mobile First" Styling */
@@ -63,7 +64,7 @@ section {
 }
 
 .second-section-container {
-  background-image: url("./assets/images/mobileBackground.png");
+  background-image: url("/assets/images/mobileBackground.png");
   background-size: 100% 90%;
   background-repeat: no-repeat;
   width: 60%;
@@ -117,6 +118,115 @@ section {
   font-size: 1.56rem;
   width: 20px;
   color: #505f79;
+}
+
+/* Mobile Modal Styling Start */
+.project-modal-background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  background: rgba(138, 168, 207, 0.84);
+  opacity: unset;
+  text-align: center;
+  max-height: 100vh;
+  overflow-y: auto;
+  backdrop-filter: blur(4px);
+}
+
+.project-modal-main {
+  width: 80%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 10px 20px 10px;
+  border-radius: 20px;
+  overflow-y: initial !important;
+}
+
+.modal-top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #172b4d;
+}
+
+.md-pr-yr {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.md-pr-yr li {
+  font-size: 14px;
+}
+
+.modal-project-name {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+.close {
+  font-size: 30px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.modal-image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.modal-project-details {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 10px;
+}
+
+.modal-project-description {
+  font-size: 15px;
+  color: #344563;
+  text-align: left;
+}
+
+.modals-tech-and-buttons {
+  text-align: left;
+}
+
+.modal-techs {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 0 40px;
+  font-size: 14px;
+}
+
+.modal-techs li {
+  background-color: rgb(213, 227, 231);
+  color: rgb(52, 59, 155);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 10px 5px 0 0;
+}
+
+.modal-buttons div {
+  background-color: white;
+  border: 0.5px solid rgb(52, 59, 155);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.modal-buttons div a {
+  text-decoration: none;
+  color: rgb(52, 59, 155);
 }
 
 /* Syles for the mobile menu */
@@ -447,7 +557,7 @@ section {
 }
 
 .contact {
-  background: url("./assets/images/contact_background.png");
+  background: url("/assets/images/contact_background.png");
   background-size: 60% 100%;
   background-repeat: no-repeat;
   background-position: top right;
@@ -583,7 +693,7 @@ section {
   }
 
   .second-section-container {
-    background-image: url("./assets/images/headerBackground.png");
+    background-image: url("/assets/images/headerBackground.png");
     margin: 0 auto;
     display: flex;
     align-self: center;
@@ -677,7 +787,7 @@ section {
   }
 
   .contact {
-    background-image: url("./assets/images/contact_form_big_background.png");
+    background-image: url("/assets/images/contact_form_big_background.png");
     background-size: 100% 100%;
     text-align: center;
     padding-bottom: 50px;
@@ -703,5 +813,39 @@ section {
 
   .project > section:nth-child(2) {
     margin: 20px 0 0 20px;
+  }
+
+  /* Desktop Modal Styling Start */
+  .project-modal-main {
+    width: 60%;
+  }
+
+  .md-pr-yr {
+    margin-bottom: 30px;
+  }
+
+  .md-pr-yr li {
+    font-size: 18px;
+  }
+
+  .modal-project-name {
+    font-size: 40px;
+  }
+
+  .modal-image {
+    margin-top: 0;
+  }
+
+  .modal-techs {
+    margin-top: 20px;
+  }
+
+  .modal-project-details {
+    grid-template-columns: 70% 30%;
+    margin-top: 30px;
+  }
+
+  .modal-project-description {
+    font-size: 22px;
   }
 }
