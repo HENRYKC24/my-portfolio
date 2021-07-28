@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Henry's Portfolio</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -38,7 +38,8 @@
 
       gtag("config", "G-YZHEGQ310C");
     </script>
-    <script defer src="./index.js"></script>
+    <script defer src="./js/index.js"></script>
+    <script defer src="./js/modal.js"></script>
   </head>
   <body>
     <main class="wrapper">
@@ -116,7 +117,9 @@
               <li>CSS</li>
               <li>JavaScript</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button pr-btn">
+              See Project
+            </button>
           </section>
         </section>
 
@@ -148,7 +151,9 @@
               <li>CSS</li>
               <li>JavaScript</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button pr-btn">
+              See Project
+            </button>
           </section>
         </section>
 
@@ -180,7 +185,9 @@
               <li>CSS</li>
               <li>JavaScript</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button pr-btn">
+              See Project
+            </button>
           </section>
         </section>
 
@@ -212,7 +219,9 @@
               <li>CSS</li>
               <li>JavaScript</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button pr-btn">
+              See Project
+            </button>
           </section>
         </section>
       </section>
@@ -229,11 +238,21 @@
             </p>
             <p class="connect-about">LET’S CONNECT</p>
             <ul class="social-container-about social-container">
-              <li><a href="#"><i class="fab fa-github"></i></a></li>
-              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="#"><i class="fab fa-angellist"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-angellist"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-medium-m"></i></a>
+              </li>
             </ul>
             <button class="project-button" type="button">Get my resume</button>
           </section>
@@ -246,6 +265,7 @@
               </section>
 
               <section class="lang-list">
+                html
                 <section class="lang">
                   <img
                     src="./assets/images/js.png"
@@ -330,5 +350,26 @@
         </section>
       </section>
     </main>
+    <section class="popup-container">
+      <div class="popup-inner"></div>
+    </section>
+    <!--Project Modal Starts -->
+    <section class="project-modal-background">
+      <section class="project-modal-main">
+        <section class="modal-top-section">
+          <h1 class="modal-project-name"></h1>
+          <span class="close">&times;</span>
+        </section>
+        <ul class="project-year md-pr-yr">
+          <li class="canopy"></li>
+          <li class="dot"></li>
+          <li class="role"></li>
+          <li class="dot"></li>
+          <li class="role year"></li>
+        </ul>
+        <img src="" alt="" class="modal-image" />
+      </section>
+    </section>
+    <!-- Project Modal Ends -->
   </body>
 </html>
