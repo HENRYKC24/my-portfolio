@@ -676,13 +676,11 @@ section {
   }
 
   .nav-bar {
-    /* width: 100%; */
     color: #344563;
     background-color: white;
     padding: 0 6%;
     margin: 0;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     font-size: 1.25rem;
     position: sticky;
