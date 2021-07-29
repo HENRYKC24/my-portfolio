@@ -40,11 +40,12 @@
     </script>
     <script defer src="./js/index.js"></script>
     <script defer src="./js/modal.js"></script>
+    <script defer src="./js/validation.js"></script>
   </head>
   <body>
     <main class="wrapper">
       <nav class="nav-bar">
-        <h1 class="logo-box"><a href="#">My Logo</a></h1>
+        <h1 class="logo-box"><a href="#">Welcome!</a></h1>
         <span class="menu-icon"><i class="fas fa-bars"></i></span>
         <ul class="menu">
           <li class="menu-item"><a href="#projects">Portfolio</a></li>
@@ -58,10 +59,10 @@
 
         <section class="second-section-container">
           <section class="second-section">
-            <h1>I'm Henry</h1>
+            <h1>I'm Henry Kc</h1>
             <h1>Glad to see you!</h1>
             <p>
-              I’m a software developer! I can help you build a product , feature
+              I’m a software engineer! I can help you build a product , feature
               or website Look through some of my work and experience! If you
               like what you see and have a project you need coded, don’t
               hestiate to contact me.
@@ -231,7 +232,7 @@
           <section class="about-intro-section">
             <h1>About Myself</h1>
             <p>
-              Hello I’m a software developer! I can help you build a product ,
+              Hello I’m a software engineer! I can help you build a product ,
               feature or website Look through some of my work and experience! If
               you like what you see and have a project you need coded, don’t
               hestiate to contact me.
@@ -265,7 +266,6 @@
               </section>
 
               <section class="lang-list">
-                html
                 <section class="lang">
                   <img
                     src="./assets/images/js.png"
@@ -316,7 +316,7 @@
             feature that you need built or a project that needs coding. I’d love
             to help with it
           </p>
-          <form action="https://formspree.io/f/xyyldewl" method="POST">
+          <form class="contact-me" action="https://formspree.io/f/xyyldewl" method="POST">
             <input
               type="text"
               maxlength="30"
@@ -331,7 +331,7 @@
               name="email"
               placeholder="Email"
               required
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             />
             <textarea
               maxlength="500"
@@ -343,6 +343,7 @@
               required
               placeholder="Enter your message here"
             ></textarea>
+            <p class="error fade"></p>
             <button type="submit" class="project-button send">
               Get in Touch
             </button>
