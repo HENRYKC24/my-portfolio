@@ -298,6 +298,13 @@ section {
   justify-content: space-between;
 }
 
+.fade {
+  margin: -15px 0 10px;
+  opacity: 0;
+  font-size: 14px;
+  transition: opacity 2s;
+}
+
 .second-section p:nth-child(4) {
   margin-top: 12px;
 }
