@@ -14,8 +14,8 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     msgBox.style.opacity = '1';
     email.style.outline = 'solid rgba(255, 97, 99, 1)';
-   setTimeout(() => {
-     msgBox.style.opacity = '0';
-   }, 5000);
+    setTimeout(() => {
+      msgBox.style.opacity = '0';
+    }, 5000);
   }
 });
