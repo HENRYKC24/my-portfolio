@@ -108,10 +108,15 @@ section {
 }
 
 .social-container li {
-  margin-right: 20px;
+  margin-right: 40px;
   font-size: 1.6rem;
   width: 20px;
   color: #505f79;
+}
+
+.get-resume a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .social-container li a {
@@ -120,7 +125,7 @@ section {
 }
 
 .social-container-about li {
-  margin-right: 20px;
+  margin-right: 40px;
   font-size: 1.56rem;
   width: 20px;
   color: #505f79;
@@ -295,7 +300,7 @@ section {
   padding-bottom: 138px;
   padding-left: 0;
   width: 40%;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .fade {
@@ -483,7 +488,7 @@ section {
   margin: 26px 0 20px;
   padding: 0 0 0 12px;
   width: 80%;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .about .project-button {
