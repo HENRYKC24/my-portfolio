@@ -864,4 +864,8 @@ section {
   .modal-project-description {
     font-size: 22px;
   }
+
+  .fade {
+    font-size: 18px;
+  }
 }
