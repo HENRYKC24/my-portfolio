@@ -134,4 +134,4 @@ export const projects = [
     liveLink: 'https://play.google.com/store/apps/details?id=com.seedstages.seedstages&hl=pt&gl=US',
     githubLink: 'https://bitbucket.org/seedstages-admin/seedstages-mobile/src/master/',
   },
-];
+]; 
