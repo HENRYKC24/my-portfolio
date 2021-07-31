@@ -263,8 +263,8 @@ section {
   padding-top: 21px;
   width: 100vw;
   height: 100vh;
-  background-color: #6070ffc0;
-  backdrop-filter: blur(6px);
+  background-color: #6070ffb0;
+  backdrop-filter: blur(8px);
 }
 
 .stop-scrolling {
