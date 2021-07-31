@@ -30,7 +30,7 @@ const projects = [
     githubLink: 'https://github.com/HENRYKC24/greedy-hunter-game',
   },
   {
-    projectName: "Website",
+    projectName: 'Website',
     canopy: 'WEBSITE',
     role: 'Full Stack Dev',
     year: '2021',
