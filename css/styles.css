@@ -40,6 +40,16 @@ body {
   font-weight: 700;
 }
 
+.avatar {
+  height: auto;
+  border-radius: 100%;
+  width: 300px;
+  margin-top: 180px;
+  opacity: 0.8;
+  right: 0;
+  bottom: 180px;
+}
+
 button {
   cursor: pointer;
 }
@@ -721,8 +731,9 @@ section {
   .second-section-container {
     background-image: url("../assets/images/headerBackground.png");
     margin: 0 auto;
-    display: flex;
+    display: grid;
     align-self: center;
+    grid-template-columns: 65% 35%;
     width: 95%;
   }
 
@@ -905,5 +916,29 @@ section {
 
   .fade {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .avatar {
+    position: absolute;
+    width: 150px;
+    opacity: 0.9;
+    left: 18%;
+    top: -90px;
+  }
+
+  .second-section-container {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .avatar {
+    position: absolute;
+    width: 100px;
+    opacity: 0.9;
+    left: 10%;
+    top: -120px;
   }
 }
