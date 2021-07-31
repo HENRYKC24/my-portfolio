@@ -181,6 +181,10 @@ const projects = [
   },
 ];
 
+window.addEventListener('resize', (e) => {
+  window.innerWidth > 1020 ? removeMobileMenu() : null;
+}); 
+
 const projectsContainer = document.createElement('section');
 projectsContainer.setAttribute('class', 'projects');
 projectsContainer.setAttribute('id', 'projects');
