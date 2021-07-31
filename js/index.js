@@ -1,6 +1,6 @@
 const projects = [
   {
-    projectName: 'Analog Clock',
+    projectName: 'Clock',
     canopy: 'CLOCK',
     role: 'Front End Dev',
     year: '2019',
@@ -15,7 +15,7 @@ const projects = [
     githubLink: 'https://github.com/HENRYKC24/analogue-clock',
   },
   {
-    projectName: 'Greedy Hunter',
+    projectName: 'Game',
     canopy: 'GAME',
     role: 'Front End Dev',
     year: '2021',
@@ -30,7 +30,7 @@ const projects = [
     githubLink: 'https://github.com/HENRYKC24/greedy-hunter-game',
   },
   {
-    projectName: "Friend's Website",
+    projectName: "Website",
     canopy: 'WEBSITE',
     role: 'Full Stack Dev',
     year: '2021',
@@ -54,7 +54,7 @@ const projects = [
     githubLink: '#This_is_a_private_repository_please',
   },
   {
-    projectName: 'Memory Game',
+    projectName: 'Game',
     canopy: 'GAME',
     role: 'Front End Dev',
     year: '2021',
