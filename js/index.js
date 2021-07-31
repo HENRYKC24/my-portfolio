@@ -300,6 +300,12 @@ const showMobileMenu = () => {
   mobileMenu.classList.add('mobile-menu-format');
 };
 
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 1020) {
+    removeMobileMenu();
+  }
+});
+
 menuButton.addEventListener('click', showMobileMenu);
 mobileMenu.addEventListener('click', removeMobileMenu);
 
