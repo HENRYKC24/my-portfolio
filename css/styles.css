@@ -538,6 +538,8 @@ section {
 
 .fa-chevron-down {
   color: #505f79;
+  cursor: pointer;
+  font-size: 20px;
   transform: rotate(180deg);
   transition: all 1s;
 }
