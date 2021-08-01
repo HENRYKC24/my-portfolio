@@ -365,3 +365,11 @@ allProjectButtons.forEach((button, index) => {
   button.addEventListener('click', () => populateModal(index));
   return true;
 });
+
+const LangFrameSkillChevrons = Array.from(document.querySelectorAll('.lang-and-icon .fa-chevron-down'));
+LangFrameSkillChevrons.map((element) => {
+  element.addEventListener('click', () => {
+    console.log('Say something');
+    element.parentElement.parentElement.nextElementSibling.classList.toggle('toggle-lang-list');
+  })
+})
