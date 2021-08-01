@@ -23,16 +23,16 @@ This is my portfolio website to showcase my skills and projects I have done as a
 
 To get a local copy up and running follow these simple example steps.
 
-### clone the app
+Clone the repo with `git clone https://github.com/HENRYKC24/my-portfolio.git`
 
-### Run 'npm install' from the command line
+Run `npm install` from the command line
 
-### Run 'npx hint .' to test for html linting check
+Run `npx hint .` to test for html linting check
 
-### Run 'npx stylelint "**/*.{css,scss}"' to test for css linting check 
+Run `npx stylelint "**/*.{css,scss}"` to test for css linting check 
 
 
-### The app is deployed using GitHub pages. You can view it using the 'live demo' above.
+The app is deployed using GitHub pages. You can view it using the 'live demo' above.
 
 
 
