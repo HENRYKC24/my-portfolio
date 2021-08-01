@@ -45,6 +45,7 @@ body {
   border-radius: 100%;
   width: 300px;
   margin-top: 180px;
+  margin-bottom: 90px;
   opacity: 0.8;
   right: 0;
   bottom: 180px;
@@ -104,6 +105,10 @@ section {
   width: 90%;
   color: #172b4d;
   margin: 0;
+}
+
+.second-section h1:first-child {
+  margin-top: 10px;
 }
 
 .header,
@@ -514,7 +519,7 @@ section {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-bottom: 200px;
+  padding-bottom: 20px;
 }
 
 .lang-and-icon {
@@ -522,9 +527,8 @@ section {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  margin-top: 50px;
-  margin-bottom: 36px;
+  margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 .lang-and-icon span:first-child {
@@ -532,9 +536,16 @@ section {
   font-weight: 500;
 }
 
-.fa-chevron-down,
-.fa-chevron-right {
+.fa-chevron-down {
   color: #505f79;
+  cursor: pointer;
+  font-size: 20px;
+  transform: rotate(180deg);
+  transition: all 1s;
+}
+
+.rotate-chevron {
+  transform: rotate(360deg);
 }
 
 .langs-frames-skills {
@@ -598,6 +609,7 @@ section {
   width: 100%;
   padding: 13px 24px 0;
   box-sizing: border-box;
+  margin-top: 100px;
 }
 
 .contact h1:first-child {
@@ -683,6 +695,10 @@ section {
 
 .image:hover {
   transform: scale(1.1);
+}
+
+.toggle-lang-list {
+  display: none;
 }
 
 /* Desktop media queries */
@@ -807,7 +823,6 @@ section {
     margin-right: 10px;
     justify-content: space-between;
     align-items: flex-start;
-    height: 80px;
     padding-left: 5px;
   }
 
@@ -816,8 +831,8 @@ section {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 36px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     width: auto;
   }
 
@@ -856,6 +871,7 @@ section {
     text-align: center;
     padding-bottom: 50px;
     border-top-left-radius: 200px;
+    margin-top: 200px;
   }
 
   .contact-wrapper {
