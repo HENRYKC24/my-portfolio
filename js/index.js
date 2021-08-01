@@ -366,11 +366,12 @@ allProjectButtons.forEach((button, index) => {
   return true;
 });
 
-//Drop down menu for skills and languages
+// Drop down menu for skills and languages
 const LangFrameSkillChevrons = Array.from(document.querySelectorAll('.lang-and-icon .fa-chevron-down'));
 LangFrameSkillChevrons.map((element) => {
   element.addEventListener('click', () => {
     element.parentElement.parentElement.nextElementSibling.classList.toggle('toggle-lang-list');
     element.classList.toggle('rotate-chevron');
-  })
-})
+  });
+  return true;
+});
