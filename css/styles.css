@@ -725,6 +725,7 @@ section {
   margin: 5px;
   padding: 5px;
   border: 4px solid #172b4d;
+  background-color: #fff;
   border-radius: 100%;
   cursor: pointer;
 }
