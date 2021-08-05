@@ -12,6 +12,7 @@ This is my portfolio website to showcase my skills and projects I have done as a
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 
