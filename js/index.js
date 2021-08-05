@@ -186,7 +186,7 @@ projectsContainer.setAttribute('class', 'projects');
 projectsContainer.setAttribute('id', 'projects');
 
 const h1 = document.createElement('h1');
-h1.setAttribute('class', 'see-projects')
+h1.setAttribute('class', 'see-projects');
 h1.textContent = 'My Works 👇';
 const rule = document.createElement('hr');
 rule.setAttribute('class', 'rule');
