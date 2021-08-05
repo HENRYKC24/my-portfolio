@@ -185,9 +185,21 @@ const projectsContainer = document.createElement('section');
 projectsContainer.setAttribute('class', 'projects');
 projectsContainer.setAttribute('id', 'projects');
 
+const h1 = document.createElement('h1');
+h1.setAttribute('class', 'see-projects');
+h1.textContent = 'My Works 👇';
+const rule = document.createElement('hr');
+rule.setAttribute('class', 'rule');
+projectsContainer.appendChild(h1);
+projectsContainer.appendChild(rule);
+
 projects.forEach((project, index) => {
   const projectSection = document.createElement('section');
   projectSection.setAttribute('class', 'project');
+
+  if (index === 0) {
+    projectSection.classList.add('first-project');
+  }
 
   const imageSection = document.createElement('section');
   imageSection.setAttribute('class', 'project-image');
