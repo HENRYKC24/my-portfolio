@@ -1,184 +1,196 @@
+class Project {
+  constructor(
+    projectName,
+    canopy,
+    role,
+    year,
+    image,
+    description,
+    technologies,
+    liveLink,
+    githubLink,
+  ) {
+    this.projectName = projectName;
+    this.canopy = canopy;
+    this.role = role;
+    this.year = year;
+    this.image = image;
+    this.description = description;
+    this.technologies = technologies;
+    this.liveLink = liveLink;
+    this.githubLink = githubLink;
+  }
+}
+const project1 = new Project(
+  'Clock',
+  'CLOCK',
+  'Front End Dev',
+  '2019',
+  {
+    URL: './assets/images/analog_clock2.png',
+    alt: 'Simulation of analog clock',
+  },
+  'This project is a simulation of an analog clock. The project was motivated by a quest to understand JavaScript/HTML5 canvas. I read the concept in w3schools.com and tried to develop an analog clock that will be better than the one I saw there. My code is there on GitHub to compare to check for plagiarism. I developed this app in two weeks, but I continued adding changes since then when ever I have time.',
+  ['html5', 'css', 'javascipt', 'github'],
+  'https://henrykc24.github.io/analogue-clock/',
+  'https://github.com/HENRYKC24/analogue-clock',
+);
+
+const project2 = new Project(
+  'Game',
+  'GAME',
+  'Front End Dev',
+  '2021',
+  {
+    URL: './assets/images/greedy_hunter_game.png',
+    alt: 'A game to train the memory',
+  },
+
+  'I was given this project as by a recruiter to develop. From the Figma files I developed this game from scratch using React.js. The game functions very well, but I will adapt it to mobile viewport in the nearest future. It is presently optimized for desktop computers, though it runs on mobile too.',
+  ['html', 'css', 'javascipt', 'react.js', 'github'],
+  'https://henrykc24.github.io/greedy-hunter-game/',
+  'https://github.com/HENRYKC24/greedy-hunter-game',
+);
+
+const project3 = new Project(
+  'Website',
+  'WEBSITE',
+  'Full Stack Dev',
+  '2021',
+  {
+    URL: './assets/images/gbt_structurals.png',
+    alt: 'GBT structurals ltd website',
+  },
+
+  'A friend, who owns a contruction company approached me to develop this website for him. The website is a full stack project and is still undergoing development. Due to some bottleneck the website has not been fully implemented, but we have a plan to complete it soon.',
+  [
+    'html',
+    'css',
+    'javascipt',
+    'react.js',
+    'github',
+    'node.js',
+    'express',
+    'mySQL',
+  ],
+  'https://gbtstructurals.herokuapp.com/',
+  '#This_is_a_private_repository_please',
+);
+const project4 = new Project(
+  'Game',
+  'GAME',
+  'Front End Dev',
+  '2021',
+  {
+    URL: './assets/images/memory_game.png',
+    alt: 'A game for testing and improving the memory',
+  },
+
+  'At the end of my software development program at Udemy online, I was given this game as a project. The game test how a user can be able to remember clicking patterns thereby improving the users memory/retention. The UI is very interactive and engaging.',
+  ['html', 'css', 'javascipt', 'github', 'jQuery'],
+  'https://henrykc24.github.io/simon-game',
+  'https://github.com/HENRYKC24/simon-game',
+);
+const project5 = new Project(
+  'Restful API',
+  'API',
+  'Back End Dev',
+  '2021',
+  {
+    URL: './assets/images/ifit_api.png',
+    alt: 'A backend API development',
+  },
+
+  'I developed this API for a React Native application for a friend. The API is motivated by IFIT app. It was developed using MVC approach and also makes use of REST api calls',
+  ['node.js', 'express', 'mySQL', 'github', 'dotenv', 'bcrypt', 'cors'],
+  'https://ifit-api.herokuapp.com/',
+  'https://github.com/HENRYKC24/IFIT-API',
+);
+const project6 = new Project(
+  'React Site',
+  'WEBSITE',
+  'Full Stack Dev',
+  '2020',
+  {
+    URL: './assets/images/my_website_react.png',
+    alt: 'Previous website still under development',
+  },
+
+  'This project is motivated by the progress I made in using the MERN stack. It is a full stack project which I intend to use as my website before I started the develpment of this very website at Microverse. The project is not yet done and I am hoping to continue the development soon. I implemented blog feature in the website.',
+  ['node.js', 'express', 'mySQL', 'github', 'dotenv', 'bcrypt', 'cors'],
+  'https://henrykc.herokuapp.com/',
+  'https://github.com/HENRYKC24/henrykc_website_backend',
+);
+const project7 = new Project(
+  'My Portfolio',
+  'WEBSITE',
+  'Front End Dev',
+  '2021',
+  {
+    URL: './assets/images/portfolio.png',
+    alt: 'My portfolio website',
+  },
+
+  'This website was motivated by Microverse Inc. I joined Microver on July 5, 2021 and It was a standard to first work on your portfolio website. This website has everything about me in the world of software development. I am so happy to have developed this website to help me get a better job',
+  ['html', 'css', 'javascript', 'github', 'fontawesome'],
+  'https://henrykc24.github.io/my-portfolio/',
+  'https://github.com/HENRYKC24/my-portfolio',
+);
+const project8 = new Project(
+  'Mobile App',
+  'MOBILE',
+  'Front End Dev',
+  '2021',
+  {
+    URL: './assets/images/s_app1.png',
+    alt: 'Seedstages mobile application',
+  },
+  'This mobile app is developed by my team at Seedstages. When I joined Seedstage as a React Native Front End Engineer, I was being given series of tasks to carry out, one of which is to develope a screen that can send message to any talent discovered by companies. I did the coding and it was latered reviewed and merged to the main branch on bitbucket. The screen seeds an email to such talents/developer, who is looking for internship/full time opportunity.',
+  [
+    'html',
+    'css',
+    'javascript',
+    'bitbucket',
+    'react',
+    'react-native',
+    'firebase',
+  ],
+  'https://play.google.com/store/apps/details?id=com.seedstages.seedstages',
+  'https://bitbucket.org/seedstages-admin/seedstages-mobile/src/master/',
+);
+const project9 = new Project(
+  'Mobile App',
+  'MOBILE',
+  'Front End Dev',
+  '2021',
+  {
+    URL: './assets/images/s_app2.png',
+    alt: 'Seedstages mobile application',
+  },
+  'This mobile app is developed by my team at Seedstages. When I joined Seedstage as a React Native Front End Engineer, I was being given series of tasks to carry out, one of which is to develope a screen that can send message to any talent discovered by companies. I did the coding and it was latered reviewed and merged to the main branch on bitbucket. The screen seeds an email to such talents/developer, who is looking for internship/full time opportunity.',
+  [
+    'html',
+    'css',
+    'javascript',
+    'bitbucket',
+    'react',
+    'react-native',
+    'firebase',
+  ],
+  'https://play.google.com/store/apps/details?id=com.seedstages.seedstages',
+  'https://bitbucket.org/seedstages-admin/seedstages-mobile/src/master/',
+);
+
 const projects = [
-  {
-    projectName: 'Clock',
-    canopy: 'CLOCK',
-    role: 'Front End Dev',
-    year: '2019',
-    image: {
-      URL: './assets/images/analog_clock2.png',
-      alt: 'Simulation of analog clock',
-    },
-    description:
-      'This project is a simulation of an analog clock. The project was motivated by a quest to understand JavaScript/HTML5 canvas. I read the concept in w3schools.com and tried to develop an analog clock that will be better than the one I saw there. My code is there on GitHub to compare to check for plagiarism. I developed this app in two weeks, but I continued adding changes since then when ever I have time.',
-    technologies: ['html5', 'css', 'javascipt', 'github'],
-    liveLink: 'https://henrykc24.github.io/analogue-clock/',
-    githubLink: 'https://github.com/HENRYKC24/analogue-clock',
-  },
-  {
-    projectName: 'Game',
-    canopy: 'GAME',
-    role: 'Front End Dev',
-    year: '2021',
-    image: {
-      URL: './assets/images/greedy_hunter_game.png',
-      alt: 'A game to train the memory',
-    },
-    description:
-      'I was given this project as by a recruiter to develop. From the Figma files I developed this game from scratch using React.js. The game functions very well, but I will adapt it to mobile viewport in the nearest future. It is presently optimized for desktop computers, though it runs on mobile too.',
-    technologies: ['html', 'css', 'javascipt', 'react.js', 'github'],
-    liveLink: 'https://henrykc24.github.io/greedy-hunter-game/',
-    githubLink: 'https://github.com/HENRYKC24/greedy-hunter-game',
-  },
-  {
-    projectName: 'Website',
-    canopy: 'WEBSITE',
-    role: 'Full Stack Dev',
-    year: '2021',
-    image: {
-      URL: './assets/images/gbt_structurals.png',
-      alt: 'GBT structurals ltd website',
-    },
-    description:
-      'A friend, who owns a contruction company approached me to develop this website for him. The website is a full stack project and is still undergoing development. Due to some bottleneck the website has not been fully implemented, but we have a plan to complete it soon.',
-    technologies: [
-      'html',
-      'css',
-      'javascipt',
-      'react.js',
-      'github',
-      'node.js',
-      'express',
-      'mySQL',
-    ],
-    liveLink: 'https://gbtstructurals.herokuapp.com/',
-    githubLink: '#This_is_a_private_repository_please',
-  },
-  {
-    projectName: 'Game',
-    canopy: 'GAME',
-    role: 'Front End Dev',
-    year: '2021',
-    image: {
-      URL: './assets/images/memory_game.png',
-      alt: 'A game for testing and improving the memory',
-    },
-    description:
-      'At the end of my software development program at Udemy online, I was given this game as a project. The game test how a user can be able to remember clicking patterns thereby improving the users memory/retention. The UI is very interactive and engaging.',
-    technologies: ['html', 'css', 'javascipt', 'github', 'jQuery'],
-    liveLink: 'https://henrykc24.github.io/simon-game',
-    githubLink: 'https://github.com/HENRYKC24/simon-game',
-  },
-  {
-    projectName: 'Restful API',
-    canopy: 'API',
-    role: 'Back End Dev',
-    year: '2021',
-    image: {
-      URL: './assets/images/ifit_api.png',
-      alt: 'A backend API development',
-    },
-    description:
-      'I developed this API for a React Native application for a friend. The API is motivated by IFIT app. It was developed using MVC approach and also makes use of REST api calls',
-    technologies: [
-      'node.js',
-      'express',
-      'mySQL',
-      'github',
-      'dotenv',
-      'bcrypt',
-      'cors',
-    ],
-    liveLink: 'https://ifit-api.herokuapp.com/',
-    githubLink: 'https://github.com/HENRYKC24/IFIT-API',
-  },
-  {
-    projectName: 'React Site',
-    canopy: 'WEBSITE',
-    role: 'Full Stack Dev',
-    year: '2020',
-    image: {
-      URL: './assets/images/my_website_react.png',
-      alt: 'Previous website still under development',
-    },
-    description:
-      'This project is motivated by the progress I made in using the MERN stack. It is a full stack project which I intend to use as my website before I started the develpment of this very website at Microverse. The project is not yet done and I am hoping to continue the development soon. I implemented blog feature in the website.',
-    technologies: [
-      'node.js',
-      'express',
-      'mySQL',
-      'github',
-      'dotenv',
-      'bcrypt',
-      'cors',
-    ],
-    liveLink: 'https://henrykc.herokuapp.com/',
-    githubLink: 'https://github.com/HENRYKC24/henrykc_website_backend',
-  },
-  {
-    projectName: 'My Portfolio',
-    canopy: 'WEBSITE',
-    role: 'Front End Dev',
-    year: '2021',
-    image: {
-      URL: './assets/images/portfolio.png',
-      alt: 'My portfolio website',
-    },
-    description:
-      'This website was motivated by Microverse Inc. I joined Microver on July 5, 2021 and It was a standard to first work on your portfolio website. This website has everything about me in the world of software development. I am so happy to have developed this website to help me get a better job',
-    technologies: ['html', 'css', 'javascript', 'github', 'fontawesome'],
-    liveLink: 'https://henrykc24.github.io/my-portfolio/',
-    githubLink: 'https://github.com/HENRYKC24/my-portfolio',
-  },
-  {
-    projectName: 'Mobile App',
-    canopy: 'MOBILE',
-    role: 'Front End Dev',
-    year: '2021',
-    image: {
-      URL: './assets/images/s_app1.png',
-      alt: 'Seedstages mobile application',
-    },
-    description:
-      'This mobile app is developed by my team at Seedstages. When I joined Seedstage as a React Native Front End Engineer, I was being given series of tasks to carry out, one of which is to develope a screen that can send message to any talent discovered by companies. I did the coding and it was latered reviewed and merged to the main branch on bitbucket. The screen seeds an email to such talents/developer, who is looking for internship/full time opportunity.',
-    technologies: [
-      'html',
-      'css',
-      'javascript',
-      'bitbucket',
-      'react',
-      'react-native',
-      'firebase',
-    ],
-    liveLink:
-      'https://play.google.com/store/apps/details?id=com.seedstages.seedstages',
-    githubLink:
-      'https://bitbucket.org/seedstages-admin/seedstages-mobile/src/master/',
-  },
-  {
-    projectName: 'Mobile App',
-    canopy: 'MOBILE',
-    role: 'Front End Dev',
-    year: '2021',
-    image: {
-      URL: './assets/images/s_app2.png',
-      alt: 'Seedstages mobile application',
-    },
-    description:
-      'This mobile app is developed by my team at Seedstages. When I joined Seedstage as a React Native Front End Engineer, I was being given series of tasks to carry out, one of which is to develope a screen that can send message to any talent discovered by companies. I did the coding and it was latered reviewed and merged to the main branch on bitbucket. The screen seeds an email to such talents/developer, who is looking for internship/full time opportunity.',
-    technologies: [
-      'html',
-      'css',
-      'javascript',
-      'bitbucket',
-      'react',
-      'react-native',
-      'firebase',
-    ],
-    liveLink:
-      'https://play.google.com/store/apps/details?id=com.seedstages.seedstages',
-    githubLink:
-      'https://bitbucket.org/seedstages-admin/seedstages-mobile/src/master/',
-  },
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+  project6,
+  project7,
+  project8,
+  project9,
 ];
 
 const projectsContainer = document.createElement('section');
@@ -256,7 +268,9 @@ projects.forEach((project, index) => {
   descriptionSection.setAttribute('class', 'project-description');
 
   const p = document.createElement('p');
-  p.textContent = project.description.length > 100 ? `${project.description.slice(0, 100)}...` : project.description;
+  p.textContent = project.description.length > 100
+    ? `${project.description.slice(0, 100)}...`
+    : project.description;
   descriptionSection.appendChild(p);
 
   section.appendChild(descriptionSection);
@@ -379,10 +393,14 @@ allProjectButtons.forEach((button, index) => {
 });
 
 // Drop down menu for skills and languages
-const LangFrameSkillChevrons = Array.from(document.querySelectorAll('.lang-and-icon .fa-chevron-down'));
+const LangFrameSkillChevrons = Array.from(
+  document.querySelectorAll('.lang-and-icon .fa-chevron-down'),
+);
 LangFrameSkillChevrons.map((element) => {
   element.addEventListener('click', () => {
-    element.parentElement.parentElement.nextElementSibling.classList.toggle('toggle-lang-list');
+    element.parentElement.parentElement.nextElementSibling.classList.toggle(
+      'toggle-lang-list',
+    );
     element.classList.toggle('rotate-chevron');
   });
   return true;
