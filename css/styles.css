@@ -499,7 +499,6 @@ section {
   margin-top: 92px;
   margin-bottom: 10px;
   line-height: 1.2;
-  width: 150px;
 }
 
 .connect-about {
@@ -550,6 +549,7 @@ section {
 .lang-and-icon span:first-child {
   font-size: 1.65rem;
   font-weight: 500;
+  color: #505f79;
 }
 
 .fa-chevron-down {
@@ -627,6 +627,7 @@ section {
   padding: 13px 24px 0;
   box-sizing: border-box;
   margin-top: 100px;
+  text-align: center;
 }
 
 .contact h1:first-child {
