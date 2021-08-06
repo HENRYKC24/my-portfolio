@@ -46,7 +46,7 @@ const project2 = new Project(
     alt: 'A game to train the memory',
   },
 
-  'I was given this project as by a recruiter to develop. From the Figma files I developed this game from scratch using React.js. The game functions very well, but I will adapt it to mobile viewport in the nearest future. It is presently optimized for desktop computers, though it runs on mobile too.',
+  'I was given this project by a recruiter to develop. From the Figma files I developed this game from scratch using React.js. The game functions very well, but I will adapt it to mobile viewport in the nearest future. It is presently optimized for desktop computers, though it runs on mobile too.',
   ['html', 'css', 'javascipt', 'react.js', 'github'],
   'https://henrykc24.github.io/greedy-hunter-game/',
   'https://github.com/HENRYKC24/greedy-hunter-game',
@@ -131,7 +131,7 @@ const project7 = new Project(
     alt: 'My portfolio website',
   },
 
-  'This website was motivated by Microverse Inc. I joined Microver on July 5, 2021 and It was a standard to first work on your portfolio website. This website has everything about me in the world of software development. I am so happy to have developed this website to help me get a better job',
+  'This website was motivated by Microverse Inc. I joined Microver on July 5, 2021 and It was a standard to first work on your portfolio website. This website has everything about me in the world of software development. I am so happy to have developed this website to help me get a better job.',
   ['html', 'css', 'javascript', 'github', 'fontawesome'],
   'https://henrykc24.github.io/my-portfolio/',
   'https://github.com/HENRYKC24/my-portfolio',
