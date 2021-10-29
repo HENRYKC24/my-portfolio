@@ -180,8 +180,51 @@ const project9 = new Project(
   'https://play.google.com/store/apps/details?id=com.seedstages.seedstages',
   'https://bitbucket.org/seedstages-admin/seedstages-mobile/src/master/',
 );
+const project10 = new Project(
+  'Calculator',
+  'WEB APP',
+  'Front End Dev',
+  '2021',
+  {
+    URL: './assets/images/math_magicians.png',
+    alt: 'Mathematics app screenshot',
+  },
+  'This is a calculator app with other features built in it. It has some quotes on mathematics on a different page.',
+  [
+    'html',
+    'css',
+    'javascript',
+    'github',
+  ],
+  'https://henrykc24.github.io/Math-Magicians-React-Redux/',
+  'https://github.com/HENRYKC24/Math-Magicians-React-Redux',
+);
+const project11 = new Project(
+  'Covid-19 App',
+  'WEB APP',
+  'Front End Dev',
+  '2021',
+  {
+    URL: './assets/images/covid19_app_screenshot.png',
+    alt: 'Covid19 app screenshot',
+  },
+  'The application shows information about the coronavirus situations in the world. It is built around an API to fetch the needed data. It can show information on the country level as well as region and sub-region levels. You can actually find covid19 information using a date filter. This is a capstone project for my React/Redux course at Microverse Inc.',
+  [
+    'html',
+    'css',
+    'javascript',
+    'react',
+    'redux',
+    'api',
+    'github',
+  ],
+  'https://henrykc24.github.io/covid19-info-finder/',
+  'https://github.com/HENRYKC24/covid19-info-finder/',
+);
 
 const projects = [
+  project11,
+  project10,
   project1,
   project2,
   project3,
