@@ -127,7 +127,7 @@ const project7 = new Project(
   'Front End Dev',
   '2021',
   {
-    URL: './assets/images/portfolio.png',
+    URL: './assets/images/portfolio_screenshot.png',
     alt: 'My portfolio website',
   },
 
@@ -221,9 +221,33 @@ const project11 = new Project(
   'https://henrykc24.github.io/covid19-info-finder/',
   'https://github.com/HENRYKC24/covid19-info-finder/',
 );
+const project12 = new Project(
+  'Restaurant Meal Show',
+  'WEB APP',
+  'Front End Dev',
+  '2021',
+  {
+    URL: './assets/images/restaurant_app_screenshot.png',
+    alt: 'Restaurant app screenshot',
+  },
+  'This is a restaurant application for my JavaScript capstone project. It showcases different foods that can be liked and commented on. It uses an API to store likes and comments. It was developed with HTML, CSS, and JavaScript.',
+  [
+    'Javascript',
+    'Html',
+    'Bootstrap',
+    'Css',
+    'Jest',
+    'Fontawesome CDN',
+    'api',
+    'github',
+  ],
+  'https://henrykc24.github.io/javascript-capstone-project/dist/',
+  'https://github.com/HENRYKC24/javascript-capstone-project/',
+);
 
 const projects = [
   project11,
+  project12,
   project10,
   project1,
   project2,
