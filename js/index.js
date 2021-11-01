@@ -51,31 +51,6 @@ const project2 = new Project(
   'https://henrykc24.github.io/greedy-hunter-game/',
   'https://github.com/HENRYKC24/greedy-hunter-game',
 );
-
-const project3 = new Project(
-  'Website',
-  'WEBSITE',
-  'Full Stack Dev',
-  '2021',
-  {
-    URL: './assets/images/gbt_structurals.png',
-    alt: 'GBT structurals ltd website',
-  },
-
-  'A friend, who owns a contruction company approached me to develop this website for him. The website is a full stack project and is still undergoing development. Due to some bottleneck the website has not been fully implemented, but we have a plan to complete it soon.',
-  [
-    'html',
-    'css',
-    'javascipt',
-    'react.js',
-    'github',
-    'node.js',
-    'express',
-    'mySQL',
-  ],
-  'https://gbtstructurals.herokuapp.com/',
-  '#This_is_a_private_repository_please',
-);
 const project4 = new Project(
   'Game',
   'GAME',
@@ -105,21 +80,6 @@ const project5 = new Project(
   ['node.js', 'express', 'mySQL', 'github', 'dotenv', 'bcrypt', 'cors'],
   'https://ifit-api.herokuapp.com/',
   'https://github.com/HENRYKC24/IFIT-API',
-);
-const project6 = new Project(
-  'React Site',
-  'WEBSITE',
-  'Full Stack Dev',
-  '2020',
-  {
-    URL: './assets/images/my_website_react.png',
-    alt: 'Previous website still under development',
-  },
-
-  'This project is motivated by the progress I made in using the MERN stack. It is a full stack project which I intend to use as my website before I started the develpment of this very website at Microverse. The project is not yet done and I am hoping to continue the development soon. I implemented blog feature in the website.',
-  ['node.js', 'express', 'mySQL', 'github', 'dotenv', 'bcrypt', 'cors'],
-  'https://henrykc.herokuapp.com/',
-  'https://github.com/HENRYKC24/henrykc_website_backend',
 );
 const project7 = new Project(
   'My Portfolio',
@@ -244,17 +204,38 @@ const project12 = new Project(
   'https://henrykc24.github.io/javascript-capstone-project/dist/',
   'https://github.com/HENRYKC24/javascript-capstone-project/',
 );
+const project13 = new Project(
+  'To-Do-List',
+  'WEB APP',
+  'Front End Dev',
+  '2021',
+  {
+    URL: './assets/images/to-do-list.png',
+    alt: 'To Do List app screenshot',
+  },
+  'A smart draggable to-do list project built with HTML, CSS, JavaScript, Webpack, and ES6. The list can be edited, deleted, rearranged, and marked as completed.',
+  [
+    'Javascript',
+    'Html',
+    'Bootstrap',
+    'Css',
+    'Jest',
+    'Webpack',
+    'github',
+  ],
+  'https://henrykc24.github.io/to-do-list-draggable/dist/',
+  'https://github.com/HENRYKC24/to-do-list-draggable',
+);
 
 const projects = [
   project11,
+  project13,
   project12,
   project10,
   project1,
   project2,
-  project3,
   project4,
   project5,
-  project6,
   project7,
   project8,
   project9,
