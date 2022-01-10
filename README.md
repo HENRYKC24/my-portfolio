@@ -58,7 +58,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- A special thanks to Microverse for inspiring this project. I indebted to you all at Microverse
+- A special thanks to Microverse for inspiring this project. I am indebted to you all at Microverse
 - A special thanks goes to all my peers at Microverse for being ther for me.
 
 ## 📝 License
