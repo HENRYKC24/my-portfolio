@@ -21,6 +21,22 @@ class Project {
     this.githubLink = githubLink;
   }
 }
+
+const capstoneRails = new Project(
+  'Lease',
+  'Lease',
+  'Full Stack Dev',
+  '2022',
+  {
+    URL: './assets/images/capstone_rails.png',
+    alt: 'Full stack rails-react project',
+  },
+  'This is an apartment webapp that allows a user to sign up, log in, and make leases on particular apartments. The user, apartments, and leases are stored in this API.',
+  ['ruby', 'rails', 'react', 'github', 'heroku', 'Rspec', 'Jest'],
+  'https://lease-a-home.herokuapp.com/',
+  'https://github.com/HENRYKC24/lease-a-home-frontend',
+);
+
 const project1 = new Project(
   'Clock',
   'CLOCK',
@@ -228,6 +244,7 @@ const project13 = new Project(
 );
 
 const projects = [
+  capstoneRails,
   project11,
   project13,
   project12,
