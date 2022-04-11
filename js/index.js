@@ -242,8 +242,30 @@ const project13 = new Project(
   'https://henrykc24.github.io/to-do-list-draggable/dist/',
   'https://github.com/HENRYKC24/to-do-list-draggable',
 );
+const eCommerceApp = new Project(
+  'E-Commerce',
+  'WEB APP',
+  'Front End Dev',
+  '2022',
+  {
+    URL: './assets/images/e_commerce.png',
+    alt: 'E-commerce app screenshot',
+  },
+  'This is an e-commerce website where users can buy different categories of food. You can add items to cart and know the total amount of money for all the items in the cart before checking out. It fetches data from a graphQL API.',
+  [
+    'React',
+    'Redux',
+    'GraphQL API',
+    'Jest',
+    'Heroku',
+    'GitHub',
+  ],
+  'https://kc-ecommerce-app.herokuapp.com/',
+  'https://github.com/HENRYKC24/E-commerce-Website-React-GraphQL',
+);
 
 const projects = [
+  eCommerceApp,
   capstoneRails,
   project11,
   project13,
