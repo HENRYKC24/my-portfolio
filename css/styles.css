@@ -780,6 +780,10 @@ section {
     padding: 0;
   }
 
+  .lang-logo {
+    margin-right: 0;
+  }
+
   .second-section-container {
     background-image: url("../assets/images/headerBackground.png");
     margin: 0 auto;
