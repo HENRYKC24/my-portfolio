@@ -31,7 +31,8 @@ class Project {
 //     URL: './assets/images/capstone_rails.png',
 //     alt: 'Full stack rails-react project',
 //   },
-//   'This is an apartment webapp that allows a user to sign up, log in, and make leases on particular apartments. The user, apartments, and leases are stored in this API.',
+//   'This is an apartment webapp that allows a user to sign up, log in, and make \
+//leases on particular apartments. The user, apartments, and leases are stored in this API.',
 //   ['ruby', 'rails', 'react', 'github', 'heroku', 'Rspec', 'Jest'],
 //   'https://lease-a-home.herokuapp.com/',
 //   'https://github.com/HENRYKC24/lease-a-home-frontend',
@@ -184,7 +185,11 @@ const calculatorAppReact = new Project(
 //     URL: './assets/images/covid19_app_screenshot.png',
 //     alt: 'Covid19 app screenshot',
 //   },
-//   'The application shows information about the coronavirus situations in the world. It is built around an API to fetch the needed data. It can show information on the country level as well as region and sub-region levels. You can actually find covid19 information using a date filter. This is a capstone project for my React/Redux course at Microverse Inc.',
+//   'The application shows information about the coronavirus situations in the world.\
+// It is built around an API to fetch the needed data. It can show information on the\
+// country level as well as region and sub-region levels. You can actually find covid19\
+// information using a date filter. This is a capstone project for my React/Redux course\
+// at Microverse Inc.',
 //   [
 //     'html',
 //     'css',
@@ -252,7 +257,9 @@ const toDoList = new Project(
 //     URL: './assets/images/e_commerce.png',
 //     alt: 'E-commerce app screenshot',
 //   },
-//   'This is an e-commerce website where users can buy different categories of food. You can add items to cart and know the total amount of money for all the items in the cart before checking out. It fetches data from a graphQL API.',
+//   'This is an e-commerce website where users can buy different categories of food.\
+// You can add items to cart and know the total amount of money for all the items in the\
+// cart before checking out. It fetches data from a graphQL API.',
 //   [
 //     'React',
 //     'Redux',
