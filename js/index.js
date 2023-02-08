@@ -37,7 +37,7 @@ const capstoneRails = new Project(
   'https://github.com/HENRYKC24/lease-a-home-frontend',
 );
 
-const project1 = new Project(
+const analogClock = new Project(
   'Clock',
   'CLOCK',
   'Front End Dev',
@@ -52,7 +52,7 @@ const project1 = new Project(
   'https://github.com/HENRYKC24/analogue-clock',
 );
 
-const project2 = new Project(
+const huntingGame = new Project(
   'Game',
   'GAME',
   'Front End Dev',
@@ -67,7 +67,7 @@ const project2 = new Project(
   'https://henrykc24.github.io/greedy-hunter-game/',
   'https://github.com/HENRYKC24/greedy-hunter-game',
 );
-const project4 = new Project(
+const memoryGame = new Project(
   'Game',
   'GAME',
   'Front End Dev',
@@ -82,7 +82,7 @@ const project4 = new Project(
   'https://henrykc24.github.io/simon-game',
   'https://github.com/HENRYKC24/simon-game',
 );
-const project5 = new Project(
+const restAPI = new Project(
   'Restful API',
   'API',
   'Back End Dev',
@@ -97,7 +97,7 @@ const project5 = new Project(
   'https://ifit-api.herokuapp.com/',
   'https://github.com/HENRYKC24/IFIT-API',
 );
-const project7 = new Project(
+const myPortfolio = new Project(
   'My Portfolio',
   'WEBSITE',
   'Front End Dev',
@@ -112,7 +112,7 @@ const project7 = new Project(
   'https://henrykc24.github.io/my-portfolio/',
   'https://github.com/HENRYKC24/my-portfolio',
 );
-const project8 = new Project(
+const seedstagesApp1 = new Project(
   'Mobile App',
   'MOBILE',
   'Front End Dev',
@@ -134,7 +134,7 @@ const project8 = new Project(
   'https://play.google.com/store/apps/details?id=com.seedstages.seedstages',
   'https://bitbucket.org/seedstages-admin/seedstages-mobile/src/master/',
 );
-const project9 = new Project(
+const seedstagesApp2 = new Project(
   'Mobile App',
   'MOBILE',
   'Front End Dev',
@@ -156,7 +156,7 @@ const project9 = new Project(
   'https://play.google.com/store/apps/details?id=com.seedstages.seedstages',
   'https://bitbucket.org/seedstages-admin/seedstages-mobile/src/master/',
 );
-const project10 = new Project(
+const calculatorAppReact = new Project(
   'Calculator',
   'WEB APP',
   'Front End Dev',
@@ -175,7 +175,7 @@ const project10 = new Project(
   'https://henrykc24.github.io/Math-Magicians-React-Redux/',
   'https://github.com/HENRYKC24/Math-Magicians-React-Redux',
 );
-const project11 = new Project(
+const covid19App = new Project(
   'Covid-19 App',
   'WEB APP',
   'Front End Dev',
@@ -197,7 +197,7 @@ const project11 = new Project(
   'https://henrykc24.github.io/covid19-info-finder/',
   'https://github.com/HENRYKC24/covid19-info-finder/',
 );
-const project12 = new Project(
+const restaurantApp = new Project(
   'Restaurant Meal Show',
   'WEB APP',
   'Front End Dev',
@@ -220,7 +220,7 @@ const project12 = new Project(
   'https://henrykc24.github.io/javascript-capstone-project/dist/',
   'https://github.com/HENRYKC24/javascript-capstone-project/',
 );
-const project13 = new Project(
+const toDoList = new Project(
   'To-Do-List',
   'WEB APP',
   'Front End Dev',
@@ -265,19 +265,19 @@ const eCommerceApp = new Project(
 );
 
 const projects = [
-  eCommerceApp,
-  capstoneRails,
-  project11,
-  project13,
-  project12,
-  project10,
-  project1,
-  project2,
-  project4,
-  project5,
-  project7,
-  project8,
-  project9,
+  calculatorAppReact,
+  analogClock,
+  memoryGame,
+  myPortfolio,
+  huntingGame,
+  // eCommerceApp,
+  // capstoneRails,
+  // covid19App,
+  toDoList,
+  restaurantApp,
+  restAPI,
+  seedstagesApp1,
+  seedstagesApp2,
 ];
 
 const projectsContainer = document.createElement('section');
