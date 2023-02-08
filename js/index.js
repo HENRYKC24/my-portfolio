@@ -32,7 +32,7 @@ class Project {
 //     alt: 'Full stack rails-react project',
 //   },
 //   'This is an apartment webapp that allows a user to sign up, log in, and make \
-//leases on particular apartments. The user, apartments, and leases are stored in this API.',
+//  leases on particular apartments. The user, apartments, and leases are stored in this API.',
 //   ['ruby', 'rails', 'react', 'github', 'heroku', 'Rspec', 'Jest'],
 //   'https://lease-a-home.herokuapp.com/',
 //   'https://github.com/HENRYKC24/lease-a-home-frontend',
