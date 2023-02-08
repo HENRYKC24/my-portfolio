@@ -22,20 +22,20 @@ class Project {
   }
 }
 
-const capstoneRails = new Project(
-  'Lease',
-  'Lease',
-  'Full Stack Dev',
-  '2022',
-  {
-    URL: './assets/images/capstone_rails.png',
-    alt: 'Full stack rails-react project',
-  },
-  'This is an apartment webapp that allows a user to sign up, log in, and make leases on particular apartments. The user, apartments, and leases are stored in this API.',
-  ['ruby', 'rails', 'react', 'github', 'heroku', 'Rspec', 'Jest'],
-  'https://lease-a-home.herokuapp.com/',
-  'https://github.com/HENRYKC24/lease-a-home-frontend',
-);
+// const capstoneRails = new Project(
+//   'Lease',
+//   'Lease',
+//   'Full Stack Dev',
+//   '2022',
+//   {
+//     URL: './assets/images/capstone_rails.png',
+//     alt: 'Full stack rails-react project',
+//   },
+//   'This is an apartment webapp that allows a user to sign up, log in, and make leases on particular apartments. The user, apartments, and leases are stored in this API.',
+//   ['ruby', 'rails', 'react', 'github', 'heroku', 'Rspec', 'Jest'],
+//   'https://lease-a-home.herokuapp.com/',
+//   'https://github.com/HENRYKC24/lease-a-home-frontend',
+// );
 
 const analogClock = new Project(
   'Clock',
@@ -175,28 +175,29 @@ const calculatorAppReact = new Project(
   'https://henrykc24.github.io/Math-Magicians-React-Redux/',
   'https://github.com/HENRYKC24/Math-Magicians-React-Redux',
 );
-const covid19App = new Project(
-  'Covid-19 App',
-  'WEB APP',
-  'Front End Dev',
-  '2021',
-  {
-    URL: './assets/images/covid19_app_screenshot.png',
-    alt: 'Covid19 app screenshot',
-  },
-  'The application shows information about the coronavirus situations in the world. It is built around an API to fetch the needed data. It can show information on the country level as well as region and sub-region levels. You can actually find covid19 information using a date filter. This is a capstone project for my React/Redux course at Microverse Inc.',
-  [
-    'html',
-    'css',
-    'javascript',
-    'react',
-    'redux',
-    'api',
-    'github',
-  ],
-  'https://henrykc24.github.io/covid19-info-finder/',
-  'https://github.com/HENRYKC24/covid19-info-finder/',
-);
+// const covid19App = new Project(
+//   'Covid-19 App',
+//   'WEB APP',
+//   'Front End Dev',
+//   '2021',
+//   {
+//     URL: './assets/images/covid19_app_screenshot.png',
+//     alt: 'Covid19 app screenshot',
+//   },
+//   'The application shows information about the coronavirus situations in the world. It is built around an API to fetch the needed data. It can show information on the country level as well as region and sub-region levels. You can actually find covid19 information using a date filter. This is a capstone project for my React/Redux course at Microverse Inc.',
+//   [
+//     'html',
+//     'css',
+//     'javascript',
+//     'react',
+//     'redux',
+//     'api',
+//     'github',
+//   ],
+//   'https://henrykc24.github.io/covid19-info-finder/',
+//   'https://github.com/HENRYKC24/covid19-info-finder/',
+// );
+
 const restaurantApp = new Project(
   'Restaurant Meal Show',
   'WEB APP',
@@ -242,27 +243,27 @@ const toDoList = new Project(
   'https://henrykc24.github.io/to-do-list-draggable/dist/',
   'https://github.com/HENRYKC24/to-do-list-draggable',
 );
-const eCommerceApp = new Project(
-  'E-Commerce',
-  'WEB APP',
-  'Front End Dev',
-  '2022',
-  {
-    URL: './assets/images/e_commerce.png',
-    alt: 'E-commerce app screenshot',
-  },
-  'This is an e-commerce website where users can buy different categories of food. You can add items to cart and know the total amount of money for all the items in the cart before checking out. It fetches data from a graphQL API.',
-  [
-    'React',
-    'Redux',
-    'GraphQL API',
-    'Jest',
-    'Heroku',
-    'GitHub',
-  ],
-  'https://kc-ecommerce-app.herokuapp.com/',
-  'https://github.com/HENRYKC24/E-commerce-Website-React-GraphQL',
-);
+// const eCommerceApp = new Project(
+//   'E-Commerce',
+//   'WEB APP',
+//   'Front End Dev',
+//   '2022',
+//   {
+//     URL: './assets/images/e_commerce.png',
+//     alt: 'E-commerce app screenshot',
+//   },
+//   'This is an e-commerce website where users can buy different categories of food. You can add items to cart and know the total amount of money for all the items in the cart before checking out. It fetches data from a graphQL API.',
+//   [
+//     'React',
+//     'Redux',
+//     'GraphQL API',
+//     'Jest',
+//     'Heroku',
+//     'GitHub',
+//   ],
+//   'https://kc-ecommerce-app.herokuapp.com/',
+//   'https://github.com/HENRYKC24/E-commerce-Website-React-GraphQL',
+// );
 
 const projects = [
   calculatorAppReact,
