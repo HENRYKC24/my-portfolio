@@ -20,26 +20,25 @@ class Project {
     this.liveLink = liveLink;
     this.githubLink = githubLink;
   }
-}
+};
 
-// const capstoneRails = new Project(
-//   'Lease',
-//   'Lease',
-//   'Full Stack Dev',
-//   '2022',
-//   {
-//     URL: './assets/images/capstone_rails.png',
-//     alt: 'Full stack rails-react project',
-//   },
-//   'This is an apartment webapp that allows a user to sign up, log in, and make \
-//  leases on particular apartments. The user, apartments, and leases are stored in this API.',
-//   ['ruby', 'rails', 'react', 'github', 'heroku', 'Rspec', 'Jest'],
-//   'https://lease-a-home.herokuapp.com/',
-//   'https://github.com/HENRYKC24/lease-a-home-frontend',
-// );
+const dateObserver = new Project(
+  'DateObserver',
+  'CALENDAR',
+  'Mobile App Dev',
+  '2023',
+  {
+    URL: './assets/images/dateobserver_appimage.png',
+    alt: 'Calendar app',
+  },
+  'DateObserver - Your Ultimate Date Companion \n We are excited to introduce DateObserver, a feature-rich Android application that revolutionizes the way you experience dates and calendar events. With DateObserver, you can explore the calendar, discover worldwide observances, access a vast range of calendar years, and much more.',
+  ['React Native'],
+  'https://play.google.com/store/apps/details?id=com.dateobserver',
+  'https://play.google.com/store/apps/details?id=com.dateobserver',
+);
 
 const analogClock = new Project(
-  'Clock',
+  'Analogue',
   'CLOCK',
   'Front End Dev',
   '2019',
@@ -54,7 +53,7 @@ const analogClock = new Project(
 );
 
 const huntingGame = new Project(
-  'Game',
+  'Greedy Hunter',
   'GAME',
   'Front End Dev',
   '2021',
@@ -68,8 +67,9 @@ const huntingGame = new Project(
   'https://henrykc24.github.io/greedy-hunter-game/',
   'https://github.com/HENRYKC24/greedy-hunter-game',
 );
+
 const memoryGame = new Project(
-  'Game',
+  'Memory Game',
   'GAME',
   'Front End Dev',
   '2021',
@@ -83,6 +83,7 @@ const memoryGame = new Project(
   'https://henrykc24.github.io/simon-game',
   'https://github.com/HENRYKC24/simon-game',
 );
+
 const restAPI = new Project(
   'Restful API',
   'API',
@@ -98,6 +99,7 @@ const restAPI = new Project(
   'https://ifit-api.herokuapp.com/',
   'https://github.com/HENRYKC24/IFIT-API',
 );
+
 const myPortfolio = new Project(
   'My Portfolio',
   'WEBSITE',
@@ -113,8 +115,9 @@ const myPortfolio = new Project(
   'https://henrykc24.github.io/my-portfolio/',
   'https://github.com/HENRYKC24/my-portfolio',
 );
+
 const seedstagesApp1 = new Project(
-  'Mobile App',
+  'Seedstages',
   'MOBILE',
   'Front End Dev',
   '2021',
@@ -135,8 +138,9 @@ const seedstagesApp1 = new Project(
   'https://play.google.com/store/apps/details?id=com.seedstages.seedstages',
   'https://bitbucket.org/seedstages-admin/seedstages-mobile/src/master/',
 );
+
 const seedstagesApp2 = new Project(
-  'Mobile App',
+  'Seedstages',
   'MOBILE',
   'Front End Dev',
   '2021',
@@ -157,6 +161,7 @@ const seedstagesApp2 = new Project(
   'https://play.google.com/store/apps/details?id=com.seedstages.seedstages',
   'https://bitbucket.org/seedstages-admin/seedstages-mobile/src/master/',
 );
+
 const calculatorAppReact = new Project(
   'Calculator',
   'WEB APP',
@@ -176,32 +181,6 @@ const calculatorAppReact = new Project(
   'https://henrykc24.github.io/Math-Magicians-React-Redux/',
   'https://github.com/HENRYKC24/Math-Magicians-React-Redux',
 );
-// const covid19App = new Project(
-//   'Covid-19 App',
-//   'WEB APP',
-//   'Front End Dev',
-//   '2021',
-//   {
-//     URL: './assets/images/covid19_app_screenshot.png',
-//     alt: 'Covid19 app screenshot',
-//   },
-//   'The application shows information about the coronavirus situations in the world.\
-// It is built around an API to fetch the needed data. It can show information on the\
-// country level as well as region and sub-region levels. You can actually find covid19\
-// information using a date filter. This is a capstone project for my React/Redux course\
-// at Microverse Inc.',
-//   [
-//     'html',
-//     'css',
-//     'javascript',
-//     'react',
-//     'redux',
-//     'api',
-//     'github',
-//   ],
-//   'https://henrykc24.github.io/covid19-info-finder/',
-//   'https://github.com/HENRYKC24/covid19-info-finder/',
-// );
 
 const restaurantApp = new Project(
   'Restaurant Meal Show',
@@ -226,6 +205,7 @@ const restaurantApp = new Project(
   'https://henrykc24.github.io/javascript-capstone-project/dist/',
   'https://github.com/HENRYKC24/javascript-capstone-project/',
 );
+
 const toDoList = new Project(
   'To-Do-List',
   'WEB APP',
@@ -248,39 +228,14 @@ const toDoList = new Project(
   'https://henrykc24.github.io/to-do-list-draggable/dist/',
   'https://github.com/HENRYKC24/to-do-list-draggable',
 );
-// const eCommerceApp = new Project(
-//   'E-Commerce',
-//   'WEB APP',
-//   'Front End Dev',
-//   '2022',
-//   {
-//     URL: './assets/images/e_commerce.png',
-//     alt: 'E-commerce app screenshot',
-//   },
-//   'This is an e-commerce website where users can buy different categories of food.\
-// You can add items to cart and know the total amount of money for all the items in the\
-// cart before checking out. It fetches data from a graphQL API.',
-//   [
-//     'React',
-//     'Redux',
-//     'GraphQL API',
-//     'Jest',
-//     'Heroku',
-//     'GitHub',
-//   ],
-//   'https://kc-ecommerce-app.herokuapp.com/',
-//   'https://github.com/HENRYKC24/E-commerce-Website-React-GraphQL',
-// );
 
 const projects = [
+  dateObserver,
   calculatorAppReact,
   analogClock,
   memoryGame,
   myPortfolio,
   huntingGame,
-  // eCommerceApp,
-  // capstoneRails,
-  // covid19App,
   toDoList,
   restaurantApp,
   restAPI,
