@@ -571,6 +571,11 @@ strong {
   margin-bottom: 4px;
 }
 
+.post p {
+  color: var(--ink-2);
+  margin: 0;
+}
+
 .post span {
   font-family: var(--mono);
   font-size: 0.78rem;
