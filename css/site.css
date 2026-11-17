@@ -398,6 +398,23 @@ strong {
   color: var(--ink);
 }
 
+.work-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.button-sm {
+  font-size: 0.88rem;
+  padding: 8px 14px;
+}
+
+.thumb-link {
+  display: block;
+  align-self: start;
+}
+
 .work p {
   font-size: 0.96rem;
   margin-bottom: 10px;
