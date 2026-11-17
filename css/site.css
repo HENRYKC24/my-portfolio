@@ -1082,6 +1082,64 @@ code {
   }
 }
 
+/* Follow me: a label over the icons, and named buttons under Contact. */
+.follow-label {
+  flex-basis: 100%;
+  margin: 0 0 2px;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.follow {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+
+.follow h3 {
+  margin: 0 0 6px;
+}
+
+.follow p {
+  margin: 0 0 16px;
+}
+
+.follow-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.follow-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.92rem;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.follow-chip:hover {
+  background: var(--accent-soft);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.follow-chip svg {
+  width: 18px;
+  height: 18px;
+}
+
 /* Seven networks and the theme switch in one row on a phone. */
 @media (max-width: 420px) {
   .panel-foot,
