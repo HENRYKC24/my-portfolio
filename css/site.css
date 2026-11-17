@@ -320,6 +320,16 @@ strong {
   margin-bottom: 10px;
 }
 
+.entry h3 {
+  margin-bottom: 2px;
+}
+
+.entry .where {
+  font-size: 0.88rem;
+  color: var(--ink-3);
+  margin-bottom: 8px;
+}
+
 .chips {
   display: flex;
   flex-wrap: wrap;
