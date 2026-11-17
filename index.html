@@ -3,28 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Henry's Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
+    <title>Henry Kc · Software Engineer</title>
+    <meta
+      name="description"
+      content="Henry Kc is a software engineer from Nigeria who builds mobile and web products, including DateObserver, a calendar of the world's observances on Google Play."
     />
+    <meta property="og:title" content="Henry Kc · Software Engineer" />
+    <meta
+      property="og:description"
+      content="Mobile and web products, built with care. Creator of DateObserver."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://henrykc24.github.io/my-portfolio/" />
+    <meta
+      property="og:image"
+      content="https://henrykc24.github.io/my-portfolio/assets/images/henry-kc.jpg"
+    />
+    <link rel="icon" href="./assets/images/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" href="./assets/images//favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <link rel="stylesheet" href="./css/site.css" />
+    <script defer src="./js/site.js"></script>
+    <!-- Google Analytics -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-YZHEGQ310C"
@@ -34,426 +38,315 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
-
-      gtag("config", "G-YZHEGQ310C");
+      gtag('js', new Date());
+      gtag('config', 'G-YZHEGQ310C');
     </script>
-    <script defer src="./js/index.js"></script>
-    <script defer src="./js/validation.js"></script>
-    <script defer src="./js/localStorage.js"></script>
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <main class="wrapper" id="wrapper">
-      <nav class="nav-bar">
-        <h1 class="logo-box"><a href="#">Welcome!</a></h1>
-        <span class="menu-icon"><i class="fas fa-bars"></i></span>
-        <ul class="menu">
-          <li class="menu-item"><a href="#projects">Works</a></li>
-          <li class="menu-item"><a href="#about">About</a></li>
-          <li class="menu-item"><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <section class="header">
-        <section class="top-section"></section>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="./">
+          <img src="./assets/images/henry-kc.webp" alt="" width="32" height="32" />
+          Henry Kc
+        </a>
+        <button class="menu-button" type="button" aria-label="Menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" /></svg>
+        </button>
+        <nav class="nav" aria-label="Main">
+          <a href="#work">Work</a>
+          <a href="./dateobserver/">DateObserver</a>
+          <a href="#about">About</a>
+          <a class="cta" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-        <section class="second-section-container">
-          <section class="second-section">
-            <h1>I'm Henry Kc</h1>
-            <h1>Glad you visited!</h1>
-            <p>
-              I'm a passionate software engineer! I build products,
-              features, websites, mobile apps and more. I train aspiring
-              software developers online and in-person. Look through some of my
-              work and experience. If you like what you see and have a project
-              you need coded, someone you need trained, or a job offer, don't hesitate to
-              contact me <span><a href="#contact">here</a></span
-              >.
+    <main id="main">
+      <section class="hero">
+        <div class="container">
+          <div>
+            <span class="eyebrow">Software engineer · Nigeria</span>
+            <h1>I build mobile and web products people use every day.</h1>
+            <p class="lead">
+              I'm Henry Kc. I design, build and ship apps end to end, from the
+              first sketch to the store listing, and I train new developers
+              online and in person. My latest product is
+              <a href="./dateobserver/">DateObserver</a>, a calendar of the
+              world's holidays and observances on Google Play.
             </p>
-            <p class="connect">LET'S CONNECT</p>
-            <ul class="social-container">
-              <li>
-                <a href="https://twitter.com/henrykc24"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/henry-kc/"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://medium.com/@henry_kc"
-                  ><i class="fab fa-medium-m"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://github.com/HENRYKC24"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://web.facebook.com/ezehenryk/"
-                  ><i class="fab fa-facebook"></i
-                ></a>
-              </li>
+            <div class="buttons">
+              <a class="button button-primary" href="#work">See my work</a>
+              <a class="button button-ghost" href="#contact">Work with me</a>
+            </div>
+            <ul class="facts">
+              <li>Creator of DateObserver</li>
+              <li>React Native · React · Node.js · Rails</li>
+              <li>Remote-ready</li>
             </ul>
-          </section>
-          <img class="avatar" src="./assets/images/profile.jpg" alt="Avatar" />
-        </section>
+          </div>
+          <div class="hero-photo">
+            <picture>
+              <source srcset="./assets/images/henry-kc.webp" type="image/webp" />
+              <img src="./assets/images/henry-kc.jpg" alt="Henry Kc" width="340" height="340" />
+            </picture>
+          </div>
+        </div>
       </section>
 
-      <section id="about" class="about-container">
-        <section class="about">
-          <section class="about-intro-section">
-            <h1>About Myself</h1>
-            <p class="about-introductory-text">
-              I am Henry Kc from Nigeria. I am a zealous and an indefatigable
-              software engineer. I have received training at Udemy, Coursera,
-              and Pluralsight; all in the United States of America remotely. My
-              passion for computer programming is unequalled. I have been
-              teaching this course for about 2 years. I have received a price
-              and certification from Facebook/Andela for being selected across
-              Africa to participate in the 'Build For SDG 2020' program. I 
-              interned with Seedstages, California, United States remotely. I
-              studied full-stack software engineering at Microverse Inc., United States,
-               online where I <strong>graduated with 99.6%</strong> score in the final assessment. 
-               I also obtained a <strong>cumulative point of 44.8/45</strong> overall.
-            </p>
-            <p class="connect-about">LET'S CONNECT</p>
-            <ul class="social-container-about social-container">
-              <li>
-                <a href="https://github.com/HENRYKC24"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/henry-kc/"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://web.facebook.com/ezehenryk/"
-                  ><i class="fab fa-facebook"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/henrykc24"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://medium.com/@henry_kc"
-                  ><i class="fab fa-medium-m"></i
-                ></a>
-              </li>
-            </ul>
-
-            <button
-              onclick="location.href='https://drive.google.com/file/d/1PkNibcXMULxC93bTyOR95LAXxbqFQQe9/view?usp=sharing'"
-              class="project-button get-resume"
-              type="button"
-            >
-              Get my resume
-            </button>
-          </section>
-
-          <ul class="tech-stacks">
-            <li class="langs-frames-skills">
-              <section class="lang-and-icon">
-                <span>Languages</span>
-                <span><i class="far fa-chevron-down"></i></span>
-              </section>
-
-              <section class="lang-list lang-height">
-                <section class="lang">
-                  <img
-                    src="./assets/images/js.png"
-                    alt="Javascript Logo"
-                    class="lang-logo"
-                  />
-                  <span class="js">JavaScript</span>
-                </section>
-
-                <section class="lang">
-                  <img
-                    src="./assets/images/ruby.png"
-                    alt="Ruby Logo"
-                    class="lang-logo"
-                  />
-                  <span class="js">Ruby</span>
-                </section>
-
-                <section class="lang">
-                  <img
-                    src="./assets/images/html.png"
-                    alt="HTLM Logo"
-                    class="lang-logo"
-                  />
-                  <span class="html">HTML5</span>
-                </section>
-
-                <section class="lang">
-                  <img
-                    src="./assets/images/css.png"
-                    alt="CSS Logo"
-                    class="lang-logo css-logo"
-                  />
-                  <span class="css">CSS3</span>
-                </section>
-
-                <section class="lang">
-                  <img
-                    src="./assets/images/php.png"
-                    alt="CSS Logo"
-                    class="lang-logo css-logo"
-                  />
-                  <span class="css">PHP</span>
-                </section>
-
-                <section class="lang">
-                  <img
-                    src="./assets/images/node.svg"
-                    alt="CSS Logo"
-                    class="lang-logo css-logo"
-                  />
-                  <span class="css">Node</span>
-                </section>
-
-                <section class="lang">
-                  <img
-                    src="./assets/images/rails.png"
-                    alt="Rails Logo"
-                    class="lang-logo css-logo"
-                  />
-                  <span class="css">Rails</span>
-                </section>
-                <section class="lang">
-                  <img
-                    src="./assets/images/mysql.png"
-                    alt="CSS Logo"
-                    class="lang-logo mysql-logo"
-                  />
-                  <span class="css">MySQL</span>
-                </section>
-                <section class="lang">
-                  <img
-                    src="./assets/images/postgresql.jpg"
-                    alt="Postgresql Logo"
-                    class="lang-logo mysql-logo"
-                  />
-                  <span class="css">PostgreSQL</span>
-                </section>
-                <section class="lang">
-                  <img
-                    src="./assets/images/mongodb.jpg"
-                    alt="CSS Logo"
-                    class="lang-logo css-logo"
-                  />
-                  <span class="css">MongoDB</span>
-                </section>
-                <section class="lang">
-                  <img
-                    src="./assets/images/java.png"
-                    alt="CSS Logo"
-                    class="lang-logo css-logo"
-                  />
-                  <span class="css">Java</span>
-                </section>
-              </section>
-            </li>
-
-            <li class="langs-frames-skills">
-              <section class="lang-and-icon">
-                <span>Frameworks</span>
-                <span><i class="far fa-chevron-down"></i></span>
-              </section>
-
-              <section class="lang-list frame-height">
-                <section class="lang">
-                  <img
-                    src="./assets/images/express.png"
-                    alt="CSS Logo"
-                    class="lang-logo css-logo"
-                  />
-                  <span class="css">Express.js</span>
-                </section>
-
-                <section class="lang">
-                  <img
-                    src="./assets/images/bootstrap.png"
-                    alt="CSS Logo"
-                    class="lang-logo mysql-logo"
-                  />
-                  <span class="css">Bootstrap</span>
-                </section>
-
-                <section class="lang">
-                  <img
-                    src="./assets/images/react.svg"
-                    alt="CSS Logo"
-                    class="lang-logo css-logo"
-                  />
-                  <span class="css">React.js</span>
-                </section>
-
-                <section class="lang">
-                  <img
-                    src="./assets/images/angular.svg"
-                    alt="CSS Logo"
-                    class="lang-logo css-logo"
-                  />
-                  <span class="css">Angular.js</span>
-                </section>
-
-                <section class="lang">
-                  <img
-                    src="./assets/images/react_native.png"
-                    alt="CSS Logo"
-                    class="lang-logo css-logo"
-                  />
-                  <span class="css">React Native</span>
-                </section>
-              </section>
-            </li>
-
-            <li class="langs-frames-skills">
-              <section class="lang-and-icon">
-                <span>Soft Skills</span>
-                <span><i class="far fa-chevron-down"></i></span>
-              </section>
-
-              <section class="lang-list skill-height">
-                <section class="lang">
-                  <span class="css">Integrity</span>
-                </section>
-
-                <section class="lang">
-                  <span class="css">Effective Communication</span>
-                </section>
-
-                <section class="lang">
-                  <span class="css">Dependability</span>
-                </section>
-
-                <section class="lang">
-                  <span class="css">Open mindedness</span>
-                </section>
-
-                <section class="lang">
-                  <span class="css">Teamwork</span>
-                </section>
-                <section class="lang">
-                  <span class="css">Problem Solving</span>
-                </section>
-                <section class="lang">
-                  <span class="css">Critical Thinking</span>
-                </section>
-                <section class="lang">
-                  <span class="css">Organization</span>
-                </section>
-                <section class="lang">
-                  <span class="css">Empathy</span>
-                </section>
-                <section class="lang">
-                  <span class="css">Giving/Receiving Feedback</span>
-                </section>
-                <section class="lang">
-                  <span class="css">Adaptability</span>
-                </section>
-                <section class="lang">
-                  <span class="css">Willingness to Learn</span>
-                </section>
-              </section>
-            </li>
-          </ul>
-        </section>
-      </section>
-
-      <section id="contact" class="contact-wrapper">
-        <section class="contact">
-          <h1>Contact me</h1>
-          <p>
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I'd love
-            to help with it
-          </p>
-          <form
-            class="contact-me"
-            action="https://formspree.io/f/xyyldewl"
-            method="POST"
-          >
-            <input
-              type="text"
-              maxlength="30"
-              class="name store"
-              name="name"
-              placeholder="Name"
-              required
-            />
-            <input
-              type="email"
-              class="email"
-              name="email store"
-              placeholder="Email"
-              required
-              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
-            />
-            <textarea
-              maxlength="500"
-              name="message"
-              id="msg"
-              cols="30"
-              rows="7"
-              class="msg store"
-              required
-              placeholder="Enter your message here"
-            ></textarea>
-            <p class="error fade"></p>
-            <button type="submit" class="project-button send">
-              Send Message
-            </button>
-          </form>
-        </section>
-      </section>
-    </main>
-    <section class="popup-container">
-      <div class="popup-inner"></div>
-    </section>
-    <!--Project Modal Starts -->
-    <section class="project-modal-background">
-      <section class="project-modal-main">
-        <section class="modal-top-section">
-          <h1 class="modal-project-name">Project Name</h1>
-          <span class="close">&times;</span>
-        </section>
-        <ul class="project-year md-pr-yr">
-          <li class="canopy"></li>
-          <li class="dot"></li>
-          <li class="role"></li>
-          <li class="dot"></li>
-          <li class="role year"></li>
-        </ul>
-        <img src="#" alt="#" class="modal-image" />
-        <section class="modal-project-details">
-          <p class="modal-project-description"></p>
-          <section class="modals-tech-and-buttons">
-            <ul class="modal-techs"></ul>
-            <div class="modal-buttons">
-              <div class="live-link">
-                <a href="#"
-                  >See Live <i class="fas fa-external-link-alt"></i
-                ></a>
-              </div>
-              <div class="github-link">
-                <a href="#">See Source <i class="fab fa-github"></i></a>
+      <section class="section-alt" id="dateobserver">
+        <div class="container">
+          <div class="feature">
+            <div>
+              <span class="eyebrow">Featured product</span>
+              <h2>DateObserver</h2>
+              <p>
+                One calendar for the entire world: public holidays for 200+
+                countries, observances from every continent and faith, the Igbo
+                market days, reminders and alarms, and a ready-made post for
+                every day. Designed, built and published by me.
+              </p>
+              <ul class="stats">
+                <li><strong>200+</strong><span>countries' holidays</span></li>
+                <li><strong>11,000+</strong><span>observances a year</span></li>
+                <li><strong>Android</strong><span>on Google Play</span></li>
+              </ul>
+              <div class="buttons">
+                <a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.dateobserver">Get it on Google Play</a>
+                <a class="button button-ghost" href="./dateobserver/">Learn more</a>
               </div>
             </div>
-          </section>
-        </section>
+            <div class="feature-phones">
+              <img src="./assets/dateobserver/calendar.webp" alt="DateObserver calendar with Igbo market days" loading="lazy" width="270" height="600" />
+              <img src="./assets/dateobserver/post.webp" alt="Posting an observance from DateObserver" loading="lazy" width="270" height="600" />
+            </div>
+          </div>
+        </div>
       </section>
-    </section>
-    <a class="g-t" href="#"><div class="go-to-top">TOP</div></a>
-    <!-- Project Modal Ends -->
+
+      <section id="work">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Selected work</span>
+            <h2>Things I've built</h2>
+            <p class="lead">
+              Mobile apps, APIs and web apps, from client and team projects to
+              my own. Each links to the live app or its source code.
+            </p>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <img src="./assets/work/s_app1.webp" alt="Seedstages mobile app" loading="lazy" />
+              <div class="card-body">
+                <div class="meta">Mobile app · Team · 2021</div>
+                <h3>Seedstages</h3>
+                <p>
+                  As a React Native front-end engineer at Seedstages
+                  (California, remote), I built features such as the screen
+                  companies use to contact the talent they discover. Reviewed
+                  and merged into the team's main app.
+                </p>
+                <ul class="tags"><li>React Native</li><li>Firebase</li><li>Bitbucket</li></ul>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/work/ifit_api.webp" alt="REST API code" loading="lazy" />
+              <div class="card-body">
+                <div class="meta">Back end · Client · 2021</div>
+                <h3>Fitness REST API</h3>
+                <p>
+                  A REST API for a React Native fitness app, inspired by iFit:
+                  MVC structure, authentication with bcrypt and a MySQL
+                  database.
+                </p>
+                <ul class="tags"><li>Node.js</li><li>Express</li><li>MySQL</li></ul>
+                <div class="card-links"><a href="https://github.com/HENRYKC24/IFIT-API">Source code</a></div>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/work/greedy_hunter_game.webp" alt="Greedy Hunter game" loading="lazy" />
+              <div class="card-body">
+                <div class="meta">Game · Recruiter project · 2021</div>
+                <h3>Greedy Hunter</h3>
+                <p>
+                  A browser game built from scratch in React from a recruiter's
+                  Figma designs.
+                </p>
+                <ul class="tags"><li>React</li><li>JavaScript</li></ul>
+                <div class="card-links">
+                  <a href="https://henrykc24.github.io/greedy-hunter-game/">Live</a>
+                  <a href="https://github.com/HENRYKC24/greedy-hunter-game">Source</a>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/work/math_magicians.webp" alt="Math Magicians calculator" loading="lazy" />
+              <div class="card-body">
+                <div class="meta">Web app · 2021</div>
+                <h3>Math Magicians</h3>
+                <p>A calculator app with a page of quotes about mathematics.</p>
+                <ul class="tags"><li>React</li><li>Redux</li></ul>
+                <div class="card-links">
+                  <a href="https://henrykc24.github.io/Math-Magicians-React-Redux/">Live</a>
+                  <a href="https://github.com/HENRYKC24/Math-Magicians-React-Redux">Source</a>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/work/restaurant_app_screenshot.webp" alt="Restaurant meal show" loading="lazy" />
+              <div class="card-body">
+                <div class="meta">Web app · 2021</div>
+                <h3>Restaurant Meal Show</h3>
+                <p>
+                  Browse meals, like and comment on them, with likes and
+                  comments kept through an API.
+                </p>
+                <ul class="tags"><li>JavaScript</li><li>Webpack</li><li>REST</li></ul>
+                <div class="card-links">
+                  <a href="https://henrykc24.github.io/javascript-capstone-project/dist/">Live</a>
+                  <a href="https://github.com/HENRYKC24/javascript-capstone-project/">Source</a>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/work/to-do-list.webp" alt="Draggable to-do list" loading="lazy" />
+              <div class="card-body">
+                <div class="meta">Web app · 2021</div>
+                <h3>Draggable To-Do List</h3>
+                <p>Add, edit, reorder by dragging, complete and clear tasks.</p>
+                <ul class="tags"><li>JavaScript</li><li>Webpack</li></ul>
+                <div class="card-links">
+                  <a href="https://henrykc24.github.io/to-do-list-draggable/dist/">Live</a>
+                  <a href="https://github.com/HENRYKC24/to-do-list-draggable">Source</a>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/work/memory_game.webp" alt="Memory game" loading="lazy" />
+              <div class="card-body">
+                <div class="meta">Game · 2021</div>
+                <h3>Memory Game</h3>
+                <p>Repeat ever-longer sequences of colours to train your memory.</p>
+                <ul class="tags"><li>JavaScript</li><li>jQuery</li></ul>
+                <div class="card-links">
+                  <a href="https://henrykc24.github.io/simon-game">Live</a>
+                  <a href="https://github.com/HENRYKC24/simon-game">Source</a>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/work/analog_clock2.webp" alt="Analogue clock" loading="lazy" />
+              <div class="card-body">
+                <div class="meta">Web · 2019</div>
+                <h3>Analogue Clock</h3>
+                <p>A working analogue clock drawn with the HTML5 canvas.</p>
+                <ul class="tags"><li>Canvas</li><li>JavaScript</li></ul>
+                <div class="card-links">
+                  <a href="https://henrykc24.github.io/analogue-clock/">Live</a>
+                  <a href="https://github.com/HENRYKC24/analogue-clock">Source</a>
+                </div>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/work/dateobserver.webp" alt="DateObserver" loading="lazy" />
+              <div class="card-body">
+                <div class="meta">Mobile app · Own product · 2023–now</div>
+                <h3>DateObserver</h3>
+                <p>
+                  My calendar app on Google Play, with holidays and observances
+                  worldwide, reminders, alarms and posts for social media.
+                </p>
+                <ul class="tags"><li>React Native</li><li>Android</li><li>Google Play</li></ul>
+                <div class="card-links">
+                  <a href="./dateobserver/">About the app</a>
+                  <a href="https://play.google.com/store/apps/details?id=com.dateobserver">Google Play</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-alt" id="about">
+        <div class="container about">
+          <div>
+            <span class="eyebrow">About me</span>
+            <h2>Engineer, builder, teacher</h2>
+            <p class="lead">
+              I'm a software engineer from Nigeria with a passion for building
+              products that are useful, fast and pleasant to use.
+            </p>
+            <p>
+              I studied full-stack software engineering remotely at Microverse,
+              where I graduated with a score of 99.6% in the final assessment
+              and a cumulative 44.8 out of 45. I also trained through Udemy,
+              Coursera and Pluralsight.
+            </p>
+            <p>
+              Alongside building, I train aspiring software developers online
+              and in person, which keeps my fundamentals sharp and my
+              explanations clear.
+            </p>
+            <h3 style="margin-top: 28px">Skills</h3>
+            <ul class="skills">
+              <li>JavaScript</li><li>React Native</li><li>React</li><li>Redux</li>
+              <li>Node.js</li><li>Express</li><li>Ruby on Rails</li><li>Ruby</li>
+              <li>Java</li><li>PHP</li><li>HTML &amp; CSS</li><li>PostgreSQL</li>
+              <li>MySQL</li><li>MongoDB</li><li>Git</li>
+            </ul>
+            <div class="buttons">
+              <a class="button button-ghost" href="https://drive.google.com/file/d/1PkNibcXMULxC93bTyOR95LAXxbqFQQe9/view?usp=sharing">Download my resume</a>
+            </div>
+          </div>
+          <div>
+            <h3>Highlights</h3>
+            <ul class="timeline">
+              <li><strong>DateObserver</strong><span>Creator. Designed, built and published a worldwide calendar app on Google Play.</span></li>
+              <li><strong>Microverse</strong><span>Full-stack software engineering, remote. Graduated with 99.6% in the final assessment.</span></li>
+              <li><strong>Seedstages, California</strong><span>React Native front-end engineering intern, remote.</span></li>
+              <li><strong>Facebook &amp; Andela · Build for SDG 2020</strong><span>Selected from across Africa; received a prize and certification.</span></li>
+              <li><strong>Trainer</strong><span>Teaching aspiring software developers online and in person.</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container contact">
+          <div>
+            <span class="eyebrow">Contact</span>
+            <h2>Let's build something</h2>
+            <p class="lead">
+              Have an app to build, a feature to ship, a team to train or a job
+              offer? Send me a message and I'll get back to you.
+            </p>
+            <ul class="socials">
+              <li><a href="https://github.com/HENRYKC24" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg></a></li>
+              <li><a href="https://www.linkedin.com/in/henry-kc/" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05 4.02 0 4.77 2.65 4.77 6.09V21h-4v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21H9z"/></svg></a></li>
+              <li><a href="https://twitter.com/henrykc24" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-6.8 7.8L23 22h-6.2l-4.8-6.3L6.4 22H3.3l7.3-8.3L1 2h6.3l4.4 5.8zm-1.1 18h1.7L6.3 3.9H4.5z"/></svg></a></li>
+              <li><a href="https://medium.com/@henry_kc" aria-label="Medium"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 12a6.75 6.75 0 1 1-13.5 0 6.75 6.75 0 0 1 13.5 0zm7.4 0c0 3.54-1.51 6.42-3.38 6.42S14.15 15.54 14.15 12s1.51-6.42 3.37-6.42S20.9 8.46 20.9 12zM24 12c0 3.17-.53 5.75-1.19 5.75s-1.19-2.58-1.19-5.75.53-5.75 1.19-5.75S24 8.83 24 12z"/></svg></a></li>
+              <li><a href="https://web.facebook.com/ezehenryk/" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.33l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07z"/></svg></a></li>
+            </ul>
+          </div>
+          <form action="https://formspree.io/f/xyyldewl" method="POST">
+            <label>Your name<input type="text" name="name" maxlength="60" required autocomplete="name" /></label>
+            <label>Your email<input type="email" name="email" required autocomplete="email" /></label>
+            <label>Message<textarea name="message" rows="6" maxlength="2000" required></textarea></label>
+            <button class="button button-primary" type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>© <span data-year>2026</span> Henry Kc</span>
+        <nav aria-label="Footer">
+          <a href="./dateobserver/">DateObserver</a>
+          <a href="./dateobserver/privacy/">DateObserver privacy policy</a>
+          <a href="https://github.com/HENRYKC24">GitHub</a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,66 +1,31 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Henry Kc · Portfolio
 
-# My Porfolio Website
+My portfolio website, and the home of my app **DateObserver**.
 
-> Building My Portfolio Website
+- **Live:** https://henrykc24.github.io/my-portfolio/
+- **DateObserver:** https://henrykc24.github.io/my-portfolio/dateobserver/
+- **DateObserver privacy policy:** https://henrykc24.github.io/my-portfolio/dateobserver/privacy/
 
-![screenshot](./assets/images/app_screenshot.png)
+## Built with
 
-This is my portfolio website to showcase my skills and projects I have done as a software engineer. It is motivate by my Microverse program start on the 5th, July, 2021.
+Plain HTML, CSS and a few lines of JavaScript: no frameworks, fast on any
+connection. Hosted on GitHub Pages from the `main` branch.
 
-## Built With
+## Structure
 
-- HTML
-- CSS
-- JavaScript
-
-## Live Demo
-
-[Live Demo Link](https://henrykc24.github.io/my-portfolio/)
-
-
-## Getting Started
-
-
-To get a local copy up and running follow these simple example steps.
-
-Clone the repo with `git clone https://github.com/HENRYKC24/my-portfolio.git`
-
-Run `npm install` from the command line
-
-Run `npx hint .` to test for html linting check
-
-Run `npx stylelint "**/*.{css,scss}"` to test for css linting check 
-
-
-The app is deployed using GitHub pages. You can view it using the 'live demo' above.
-
-
+- `index.html`: the portfolio (work, about, contact)
+- `dateobserver/index.html`: the DateObserver app page
+- `dateobserver/privacy/index.html`: the app's privacy policy, generated from
+  the app repository (`docs/legal/privacy-policy.md`, with
+  `docs/legal/build-privacy-page.py`). Edit the Markdown there, not this page.
+- `css/site.css`, `js/site.js`: shared by all pages
 
 ## Author
 
-👤 **Henry Kc**
+**Henry Kc**: [GitHub](https://github.com/HENRYKC24) ·
+[LinkedIn](https://www.linkedin.com/in/henry-kc/) ·
+[X](https://twitter.com/henrykc24)
 
-- GitHub: [@githubhandle](https://github.com/henrykc24)
-- Twitter: [@twitterhandle](https://twitter.com/henrykc24)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/henry-kc)
+## License
 
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/HENRYKC24/my-portfolio/issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- A special thanks to Microverse for inspiring this project. I am indebted to you all at Microverse
-- A special thanks goes to all my peers at Microverse for being ther for me.
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+[MIT](./MIT.md)
