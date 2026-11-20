@@ -64,3 +64,19 @@ if (links.length && 'IntersectionObserver' in window) {
 document.querySelectorAll('[data-year]').forEach((el) => {
   el.textContent = String(new Date().getFullYear());
 });
+
+// Copy buttons (DateObserver bank details): copy the number, say so.
+document.querySelectorAll('[data-copy]').forEach((button) => {
+  const label = button.textContent;
+  button.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(button.dataset.copy);
+      button.textContent = 'Copied';
+    } catch (e) {
+      button.textContent = 'Select and copy';
+    }
+    setTimeout(() => {
+      button.textContent = label;
+    }, 1800);
+  });
+});
