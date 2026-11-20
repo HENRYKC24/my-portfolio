@@ -854,6 +854,113 @@ textarea:focus {
   flex-wrap: wrap;
 }
 
+/* DateObserver: bank transfer details, with copy buttons. */
+.bank {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px 30px;
+  margin-top: 22px;
+  scroll-margin-top: 90px;
+}
+
+.bank h3 {
+  margin-top: 0;
+}
+
+.bank-details {
+  display: grid;
+  gap: 6px;
+  margin: 16px 0 18px;
+}
+
+.bank-details div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+
+.bank-details dt {
+  color: var(--ink-3);
+  min-width: 120px;
+}
+
+.bank-details dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.bank-accounts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.bank-account {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 2px 12px;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.bank-currency {
+  grid-column: 1;
+  font-size: 0.88rem;
+  color: var(--ink-3);
+}
+
+.bank-symbol {
+  font-weight: 700;
+  color: var(--accent);
+  margin-right: 6px;
+}
+
+.bank-number {
+  grid-column: 1;
+  font-family: var(--mono);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.copy-button {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 0;
+  border-radius: 10px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.bank-note {
+  font-size: 0.9rem;
+  color: var(--ink-3);
+  font-weight: 400;
+}
+
+.bank > .bank-note {
+  margin: 16px 0 0;
+}
+
+@media (max-width: 640px) {
+  .bank {
+    padding: 20px;
+  }
+
+  .bank-accounts {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Long-form text: the case study and the privacy policy. */
 .article {
   max-width: 740px;
