@@ -533,6 +533,12 @@ strong {
   margin-top: 22px;
 }
 
+/* "hidden" always hides, even on things styled with a display (the App
+   Store button until the app is live). */
+[hidden] {
+  display: none !important;
+}
+
 .button {
   display: inline-flex;
   align-items: center;

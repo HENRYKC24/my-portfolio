@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get DateObserver · One calendar. The entire world.</title>
+    <meta
+      name="description"
+      content="Get DateObserver free: public holidays for 200+ countries, observances from every continent and faith, Igbo market days, reminders and a post for every day."
+    />
+    <meta property="og:title" content="DateObserver · One calendar. The entire world." />
+    <meta
+      property="og:description"
+      content="Holidays and observances worldwide, Igbo market days, reminders and a post for every day. Free."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://henrykc24.github.io/my-portfolio/dateobserver/get/" />
+    <meta
+      property="og:image"
+      content="https://henrykc24.github.io/my-portfolio/assets/dateobserver/logo.png"
+    />
+    <meta name="theme-color" content="#0b1120" />
+    <link rel="icon" href="../../assets/dateobserver/favicon.png" />
+    <script>
+      // The link that goes with everything shared from DateObserver: it
+      // sends each phone to its own store. "?from=share" is passed on to
+      // Google Play, so Play Console counts installs from sharing.
+      //
+      // When Apple has approved DateObserver, set APP_STORE_LIVE to true:
+      // iPhones then go to the App Store, and its button shows below.
+      var APP_STORE_LIVE = false;
+      var PLAY = 'https://play.google.com/store/apps/details?id=com.dateobserver';
+      var APP_STORE = 'https://apps.apple.com/app/id6837894632';
+      var from = new URLSearchParams(location.search).get('from');
+      var play = from
+        ? PLAY + '&referrer=' + encodeURIComponent('utm_source=' + from)
+        : PLAY;
+      var ua = navigator.userAgent || '';
+      var iPhone =
+        /iPhone|iPad|iPod/.test(ua) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      if (/Android/i.test(ua)) {
+        location.replace(play);
+      } else if (iPhone && APP_STORE_LIVE) {
+        location.replace(APP_STORE);
+      }
+      try {
+        if (localStorage.getItem('theme') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (e) {}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/site.css" />
+    <style>
+      .get {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.2rem;
+        padding: 2rem 1.25rem;
+        text-align: center;
+      }
+      .get img { width: 96px; height: 96px; border-radius: 50%; }
+      .get h1 { margin: 0; }
+      .get p { margin: 0; max-width: 32rem; }
+      .get .buttons { justify-content: center; }
+    </style>
+  </head>
+  <body>
+    <main class="get">
+      <img src="../../assets/dateobserver/logo.png" alt="DateObserver" />
+      <h1>Get DateObserver</h1>
+      <p class="lead">
+        One calendar. The entire world. Public holidays for 200+ countries,
+        observances from every continent and faith, the Igbo market days,
+        reminders, and a ready-made post for every day. Free.
+      </p>
+      <div class="buttons">
+        <a class="button button-primary" id="play" href="https://play.google.com/store/apps/details?id=com.dateobserver">Get it on Google Play</a>
+        <a class="button button-primary" id="appstore" href="https://apps.apple.com/app/id6837894632" hidden>Download on the App Store</a>
+      </div>
+      <p><a href="../">What DateObserver does</a></p>
+    </main>
+    <script>
+      document.getElementById('play').href = play;
+      if (APP_STORE_LIVE) {
+        document.getElementById('appstore').hidden = false;
+      }
+    </script>
+  </body>
+</html>

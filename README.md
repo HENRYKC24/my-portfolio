@@ -24,7 +24,8 @@ connection. Hosted on GitHub Pages from the `main` branch.
 
 **Henry Kc**: [GitHub](https://github.com/HENRYKC24) ·
 [LinkedIn](https://www.linkedin.com/in/henry-kc/) ·
-[X](https://twitter.com/henrykc24)
+[X](https://x.com/coding_with_kc) ·
+[TikTok](https://www.tiktok.com/@coding_with_kc)
 
 ## License
 
