@@ -1,0 +1,639 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DateObserver//Calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Public holidays in Nigeria
+X-WR-CALDESC:Nigeria's public holidays\, 2026–2028. From DateObserver: ht
+ tps://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calendar
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:ng-2026-01-01-new-year-s-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:New Year’s Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-03-20-id-el-fitr@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260322
+SUMMARY:Id el Fitr
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-04-03-good-friday@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:Good Friday
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-04-06-easter-monday@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+SUMMARY:Easter Monday
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-05-01-worker-s-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Worker’s Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-05-27-id-el-kabir@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260529
+SUMMARY:Id el Kabir
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-05-27-children-s-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Children’s Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-06-12-democracy-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:Democracy Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-06-16-islamic-new-year@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:Islamic New Year
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-08-25-birthday-of-muhammad-mawlid@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:Birthday of Muhammad (Mawlid)
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-10-01-independence-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Independence Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-11-01-national-youth-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:National Youth Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-12-25-christmas-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Christmas Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2026-12-26-boxing-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Boxing Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-01-01-new-year-s-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year’s Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-03-09-id-el-fitr@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270311
+SUMMARY:Id el Fitr
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-03-26-good-friday@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Good Friday
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-03-29-easter-monday@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Easter Monday
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-05-01-worker-s-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Worker’s Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-05-03-worker-s-day-substitute-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:Worker’s Day (substitute day)
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-05-16-id-el-kabir@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270518
+SUMMARY:Id el Kabir
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-05-27-children-s-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:Children’s Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-06-06-islamic-new-year@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:Islamic New Year
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-06-12-democracy-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Democracy Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-06-14-democracy-day-substitute-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+SUMMARY:Democracy Day (substitute day)
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-08-14-birthday-of-muhammad-mawlid@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:Birthday of Muhammad (Mawlid)
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-10-01-independence-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:Independence Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-11-01-national-youth-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
+SUMMARY:National Youth Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-12-25-christmas-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20271225
+DTEND;VALUE=DATE:20271226
+SUMMARY:Christmas Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2027-12-26-boxing-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20271226
+DTEND;VALUE=DATE:20271227
+SUMMARY:Boxing Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-01-01-new-year-s-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280102
+SUMMARY:New Year’s Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-02-26-id-el-fitr@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20280226
+DTEND;VALUE=DATE:20280228
+SUMMARY:Id el Fitr
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-04-14-good-friday@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20280414
+DTEND;VALUE=DATE:20280415
+SUMMARY:Good Friday
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-04-17-easter-monday@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280418
+SUMMARY:Easter Monday
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-05-01-worker-s-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20280501
+DTEND;VALUE=DATE:20280502
+SUMMARY:Worker’s Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-05-05-id-el-kabir@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20280505
+DTEND;VALUE=DATE:20280507
+SUMMARY:Id el Kabir
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-05-25-islamic-new-year@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20280525
+DTEND;VALUE=DATE:20280526
+SUMMARY:Islamic New Year
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-05-27-children-s-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20280527
+DTEND;VALUE=DATE:20280528
+SUMMARY:Children’s Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-06-12-democracy-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20280612
+DTEND;VALUE=DATE:20280613
+SUMMARY:Democracy Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-08-03-birthday-of-muhammad-mawlid@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20280803
+DTEND;VALUE=DATE:20280804
+SUMMARY:Birthday of Muhammad (Mawlid)
+DESCRIPTION:Public holiday in Nigeria.\n\nSet by the moon: the date can mov
+ e by a day. Check locally.\n\nDateObserver has the public holidays of 200+
+  countries\, the long weekends ahead\, reminders and a ready-made post for
+  every day.\n\nGet DateObserver free: https://henrykc24.github.io/my-portf
+ olio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-10-01-independence-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20281002
+SUMMARY:Independence Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-11-01-national-youth-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20281101
+DTEND;VALUE=DATE:20281102
+SUMMARY:National Youth Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-12-25-christmas-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20281225
+DTEND;VALUE=DATE:20281226
+SUMMARY:Christmas Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ng-2028-12-26-boxing-day@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20281226
+DTEND;VALUE=DATE:20281227
+SUMMARY:Boxing Day
+DESCRIPTION:Public holiday in Nigeria.\n\nDateObserver has the public holid
+ ays of 200+ countries\, the long weekends ahead\, reminders and a ready-ma
+ de post for every day.\n\nGet DateObserver free: https://henrykc24.github.
+ io/my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

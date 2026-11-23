@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DateObserver//Calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Igbo market days
+X-WR-CALDESC:Eke\, Orie\, Afọ and Nkwọ on every date. From DateObserver
+ : https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calendar
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:igbo-market-day-orie@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20200101
+DTEND;VALUE=DATE:20200102
+RRULE:FREQ=DAILY;INTERVAL=4
+SUMMARY:Orie
+DESCRIPTION:Orie: one of the four Igbo market days (Eke\, Orie\, Afọ\, Nk
+ wọ). They repeat every four days.\n\nDateObserver shows the market day u
+ nder every date\, and sets reminders for market days\, birthdays and every
+  day that matters.\n\nGet DateObserver free: https://henrykc24.github.io/m
+ y-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:igbo-market-day-afor@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20200102
+DTEND;VALUE=DATE:20200103
+RRULE:FREQ=DAILY;INTERVAL=4
+SUMMARY:Afọ
+DESCRIPTION:Afọ: one of the four Igbo market days (Eke\, Orie\, Afọ\, N
+ kwọ). They repeat every four days.\n\nDateObserver shows the market day 
+ under every date\, and sets reminders for market days\, birthdays and ever
+ y day that matters.\n\nGet DateObserver free: https://henrykc24.github.io/
+ my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:igbo-market-day-nkwo@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20200103
+DTEND;VALUE=DATE:20200104
+RRULE:FREQ=DAILY;INTERVAL=4
+SUMMARY:Nkwọ
+DESCRIPTION:Nkwọ: one of the four Igbo market days (Eke\, Orie\, Afọ\, 
+ Nkwọ). They repeat every four days.\n\nDateObserver shows the market day
+  under every date\, and sets reminders for market days\, birthdays and eve
+ ry day that matters.\n\nGet DateObserver free: https://henrykc24.github.io
+ /my-portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:igbo-market-day-eke@henrykc24.github.io
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20200104
+DTEND;VALUE=DATE:20200105
+RRULE:FREQ=DAILY;INTERVAL=4
+SUMMARY:Eke
+DESCRIPTION:Eke: one of the four Igbo market days (Eke\, Orie\, Afọ\, Nkw
+ ọ). They repeat every four days.\n\nDateObserver shows the market day un
+ der every date\, and sets reminders for market days\, birthdays and every 
+ day that matters.\n\nGet DateObserver free: https://henrykc24.github.io/my
+ -portfolio/dateobserver/get/?from=calendar
+URL:https://henrykc24.github.io/my-portfolio/dateobserver/get/?from=calenda
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

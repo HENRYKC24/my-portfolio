@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Igbo market days and Nigeria's holidays in your calendar · DateObserver</title>
+    <meta
+      name="description"
+      content="Add the Igbo market days (Eke, Orie, Afọ, Nkwọ) and Nigeria's public holidays to Google Calendar, iPhone or Outlook in one tap. Free, from DateObserver."
+    />
+    <meta property="og:title" content="Igbo market days in your calendar" />
+    <meta
+      property="og:description"
+      content="Eke, Orie, Afọ and Nkwọ on every date of Google Calendar, iPhone or Outlook. Plus Nigeria's public holidays. Free, from DateObserver."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://henrykc24.github.io/my-portfolio/dateobserver/calendars/" />
+    <meta
+      property="og:image"
+      content="https://henrykc24.github.io/my-portfolio/assets/dateobserver/logo.png"
+    />
+    <meta name="theme-color" content="#0b1120" />
+    <link rel="icon" href="../../assets/dateobserver/favicon.png" />
+    <script>
+      try {
+        if (localStorage.getItem('theme') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (e) {}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/site.css" />
+    <script defer src="../../js/site.js"></script>
+    <style>
+      .calendars {
+        display: grid;
+        gap: 1.25rem;
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+        margin-top: 1.5rem;
+      }
+      .calendar-card h3 { margin: 0.6rem 0 0.4rem; }
+      .calendar-card p { margin: 0 0 1rem; }
+      .calendar-card .buttons { gap: 0.6rem; }
+      .calendar-card .button { font-size: 0.95rem; }
+      .sample {
+        display: flex;
+        gap: 0.4rem;
+        flex-wrap: wrap;
+        margin: 0 0 1rem;
+        padding: 0;
+        list-style: none;
+      }
+      .sample li {
+        padding: 0.2rem 0.6rem;
+        border-radius: 999px;
+        border: 1px solid currentColor;
+        font-size: 0.85rem;
+        font-weight: 600;
+        opacity: 0.85;
+      }
+      .copy-link {
+        background: none;
+        border: 0;
+        padding: 0;
+        color: inherit;
+        text-decoration: underline;
+        cursor: pointer;
+        font: inherit;
+        font-size: 0.9rem;
+        opacity: 0.8;
+      }
+      .how { max-width: 46rem; }
+      .how li { margin-bottom: 0.5rem; }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="topbar">
+      <div class="wrap">
+        <a class="brand" href="../">
+          <img src="../../assets/dateobserver/logo.png" alt="" width="32" height="32" />
+          DateObserver
+        </a>
+        <nav class="nav" aria-label="Main">
+          <a href="../#features">Features</a>
+          <a href="../#guide">User guide</a>
+          <a href="./">Calendars</a>
+          <a href="../privacy/">Privacy</a>
+          <a class="cta" href="../get/?from=calendars">Get the app</a>
+          <button class="theme-toggle" type="button" aria-label="Switch light or dark theme">
+            <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+            <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          </button>
+        </nav>
+        <a class="app-cta" href="../../" aria-label="KC, the developer">
+          <img src="../../assets/images/henry-kc.webp" alt="" width="22" height="22" />
+          KC
+        </a>
+        <button class="menu-button" type="button" aria-label="Menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18" /></svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-section">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">Free calendars</span>
+            <h1>Market days and holidays, in the calendar you already use</h1>
+            <p class="lead">
+              Add them once to Google Calendar, your iPhone or Outlook and
+              they stay there, on your phone and your computer. Nothing to
+              install, nothing to sign up for.
+            </p>
+          </div>
+
+          <div class="calendars">
+            <!-- One card per calendar; data-file is the .ics beside this page. -->
+            <article class="feature-item calendar-card" data-file="igbo-market-days.ics" data-name="Igbo market days">
+              <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+              <h3>Igbo market days</h3>
+              <ul class="sample" aria-label="The four market days">
+                <li>Eke</li><li>Orie</li><li>Afọ</li><li>Nkwọ</li>
+              </ul>
+              <p>The market day on every date, past and future, for as long as you keep it.</p>
+              <div class="buttons">
+                <a class="button button-primary google">Add to Google Calendar</a>
+                <a class="button button-ghost apple">Add to iPhone or Mac</a>
+                <a class="button button-ghost outlook">Add to Outlook</a>
+              </div>
+              <p><button class="copy-link" type="button">Copy the calendar link</button></p>
+            </article>
+
+            <article class="feature-item calendar-card" data-file="nigeria-public-holidays.ics" data-name="Public holidays in Nigeria">
+              <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 22V4a1 1 0 0 1 1-1h11l-2 4 2 4H5"/></svg></div>
+              <h3>Public holidays in Nigeria</h3>
+              <ul class="sample" aria-label="For example">
+                <li>Democracy Day</li><li>Independence Day</li><li>Id el Fitr</li>
+              </ul>
+              <p>Every public holiday, with the moved days when one falls on a weekend. Kept up to date each year.</p>
+              <div class="buttons">
+                <a class="button button-primary google">Add to Google Calendar</a>
+                <a class="button button-ghost apple">Add to iPhone or Mac</a>
+                <a class="button button-ghost outlook">Add to Outlook</a>
+              </div>
+              <p><button class="copy-link" type="button">Copy the calendar link</button></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section alt">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">How</span>
+            <h2>Adding a calendar</h2>
+          </div>
+          <ol class="how">
+            <li><strong>Google Calendar:</strong> tap <em>Add to Google Calendar</em>, then <em>Add</em>. On an Android phone this opens Google Calendar in your browser. Afterwards the calendar shows in the Google Calendar app too. If it doesn't, open the app's Settings, tap the calendar's name and turn on <em>Sync</em>.</li>
+            <li><strong>iPhone, iPad or Mac:</strong> tap <em>Add to iPhone or Mac</em>, then <em>Subscribe</em>.</li>
+            <li><strong>Outlook:</strong> tap <em>Add to Outlook</em> and sign in to Outlook.com.</li>
+            <li><strong>Any other calendar:</strong> copy the calendar link and paste it where your calendar says “subscribe” or “add from URL”.</li>
+          </ol>
+          <p>To remove one, delete it in your calendar's settings, like any other calendar.</p>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="eyebrow">Want more?</span>
+            <h2>DateObserver does the rest</h2>
+            <p class="lead">
+              Reminders on market days, the public holidays of 200+ countries,
+              over 11,000 observances a year and a ready-made post for every
+              day. Free, with no account and no ads.
+            </p>
+          </div>
+          <div class="buttons">
+            <a class="button button-primary" href="../get/?from=calendars">Get DateObserver free</a>
+            <a class="button button-ghost" href="../">What DateObserver does</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      // Each card's buttons, from its .ics file (beside this page).
+      var BASE = 'henrykc24.github.io/my-portfolio/dateobserver/calendars/';
+      document.querySelectorAll('.calendar-card').forEach(function (card) {
+        var file = card.getAttribute('data-file');
+        var name = card.getAttribute('data-name');
+        var https = 'https://' + BASE + file;
+        var webcal = 'webcal://' + BASE + file;
+        card.querySelector('.google').href =
+          'https://calendar.google.com/calendar/render?cid=' +
+          encodeURIComponent(webcal);
+        card.querySelector('.apple').href = webcal;
+        card.querySelector('.outlook').href =
+          'https://outlook.live.com/calendar/0/addfromweb?url=' +
+          encodeURIComponent(https) +
+          '&name=' +
+          encodeURIComponent(name);
+        var copy = card.querySelector('.copy-link');
+        copy.addEventListener('click', function () {
+          var done = function () {
+            copy.textContent = 'Link copied';
+            setTimeout(function () {
+              copy.textContent = 'Copy the calendar link';
+            }, 2000);
+          };
+          if (navigator.clipboard) {
+            navigator.clipboard.writeText(https).then(done, function () {
+              window.prompt('Copy this link:', https);
+            });
+          } else {
+            window.prompt('Copy this link:', https);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
