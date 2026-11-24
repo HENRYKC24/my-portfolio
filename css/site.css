@@ -1239,6 +1239,26 @@ code {
   }
 }
 
+/* Narrow phones (iPhone SE, 320-400px): the name stays whole; the KC
+   button on the DateObserver pages shows just the photo (its label still says "KC, the developer").
+   Safari's letters run a little wider, and the name went under the button. */
+.brand {
+  flex-shrink: 0;
+}
+
+@media (max-width: 400px) {
+  .app-cta.kc {
+    font-size: 0;
+    gap: 0;
+    padding: 4px;
+  }
+
+  .app-cta.kc img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
